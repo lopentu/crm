@@ -60,21 +60,20 @@ onUnmounted(() => {
         <div class="row justify-content-center">
           <div class="col-lg-8 text-center mx-auto my-auto">
             <h1 class="text-white">
-              Work with an amazing <span class="text-white" id="typed"></span>
+              Meet the <span class="text-white" id="typed"></span>
             </h1>
             <div id="typed-strings">
-              <h1>team</h1>
-              <h1>design</h1>
-              <h1>tool</h1>
+              <h1>Team</h1>
+              <!-- <h1>design</h1>
+              <h1>tool</h1> -->
             </div>
             <p class="lead mb-4 text-white opacity-8">
-              We’re constantly trying to express ourselves and actualize our
-              dreams. If you have the opportunity to play this game
+              This propject aims to...
             </p>
-            <button type="submit" class="btn bg-white text-dark">
+            <!-- <button type="submit" class="btn bg-white text-dark">
               Create Account
-            </button>
-            <h6 class="text-white mb-2 mt-5">Find us on</h6>
+            </button> -->
+            <h6 class="text-white mb-2 mt-5">Find us on 可放連結</h6>
             <div class="d-flex justify-content-center">
               <a href="javascript:;"
                 ><i class="fab fa-facebook text-lg text-white me-4"></i
