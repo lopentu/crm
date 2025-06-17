@@ -45,17 +45,15 @@ onUnmounted(() => {
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-8 text-center mx-auto my-auto">
-            <h1 class="text-white">Architecture</h1>
-            <p class="lead mb-4 text-white opacity-8">
-              The architecture of this project is...
-            </p>
+            <h1 class="text-white">Benchmarks</h1>
+            <p class="lead mb-4 text-white opacity-8">Subtitle goes here</p>
           </div>
         </div>
       </div>
     </div>
   </header>
   <div class="card card-body shadow-xl mx-3 mx-md-4 mt-n6">
-    <h2 class="text-center my-3">Architecture Employed</h2>
+    <h2 class="text-center my-3">IOLBENCH</h2>
     <p class="text-center mb-4 mx-3">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
@@ -65,6 +63,17 @@ onUnmounted(() => {
       cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
       est laborum.
     </p>
+    <h2 class="text-center my-3">Linguini</h2>
+    <p class="text-center mb-4 mx-3">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+      est laborum.
+    </p>
+    <h2 class="text-center my-3">LingOly</h2>
     <p class="text-center mb-4 mx-3">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim

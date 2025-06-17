@@ -162,85 +162,12 @@ watch(
             </RouterLink>
           </li>
           <li class="nav-item dropdown dropdown-hover mx-2">
-            <a
-              role="button"
+            <RouterLink
               class="nav-link ps-2 d-flex cursor-pointer align-items-center"
               :class="getTextColor()"
-              id="dropdownMenuBlocks"
-              data-bs-toggle="dropdown"
-              aria-expanded="false">
+              :to="{ name: 'benchmarks' }">
               Benchmarks
-              <img
-                :src="getArrowColor()"
-                alt="down-arrow"
-                class="arrow ms-2 d-lg-block d-none" />
-              <img
-                :src="getArrowColor()"
-                alt="down-arrow"
-                class="arrow ms-1 d-lg-none d-block ms-auto" />
-            </a>
-            <div
-              class="dropdown-menu dropdown-menu-end dropdown-menu-animation dropdown-md dropdown-md-responsive p-3 border-radius-lg mt-0 mt-lg-3"
-              aria-labelledby="dropdownMenuBlocks">
-              <div class="d-none d-lg-block">
-                <ul class="list-group">
-                  <li
-                    class="nav-item dropdown dropdown-hover dropdown-item list-group-item border-0 p-0">
-                    <a
-                      class="dropdown-item py-2 ps-3 border-radius-md"
-                      href="javascript:;">
-                      <div class="d-flex">
-                        <div
-                          class="w-100 d-flex align-items-center justify-content-between">
-                          <div>
-                            <h6
-                              class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">
-                              IOL Bench
-                            </h6>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                  </li>
-                  <li
-                    class="nav-item dropdown dropdown-hover dropdown-item list-group-item border-0 p-0">
-                    <a
-                      class="dropdown-item py-2 ps-3 border-radius-md"
-                      href="javascript:;">
-                      <div class="d-flex">
-                        <div
-                          class="w-100 d-flex align-items-center justify-content-between">
-                          <div>
-                            <h6
-                              class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">
-                              LINGOLY
-                            </h6>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                  </li>
-                  <li
-                    class="nav-item dropdown dropdown-hover dropdown-item list-group-item border-0 p-0">
-                    <a
-                      class="dropdown-item py-2 ps-3 border-radius-md"
-                      href="javascript:;">
-                      <div class="d-flex">
-                        <div
-                          class="w-100 d-flex align-items-center justify-content-between">
-                          <div>
-                            <h6
-                              class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">
-                              Linguini
-                            </h6>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
+            </RouterLink>
           </li>
           <li class="nav-item mx-2">
             <RouterLink
