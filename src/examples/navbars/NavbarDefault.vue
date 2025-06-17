@@ -149,7 +149,7 @@ watch(
             <RouterLink
               class="nav-link ps-2 d-flex cursor-pointer align-items-center"
               :class="getTextColor()"
-              :to="{ name: 'author' }">
+              :to="{ name: 'overview' }">
               Overview
             </RouterLink>
           </li>
@@ -157,7 +157,7 @@ watch(
             <RouterLink
               class="nav-link ps-2 d-flex cursor-pointer align-items-center"
               :class="getTextColor()"
-              :to="{ name: 'contactus' }">
+              :to="{ name: 'architecture' }">
               Architecture
             </RouterLink>
           </li>
