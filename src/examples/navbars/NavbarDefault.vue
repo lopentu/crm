@@ -213,6 +213,24 @@ watch(
                           <div>
                             <h6
                               class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">
+                              LINGOLY
+                            </h6>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li
+                    class="nav-item dropdown dropdown-hover dropdown-item list-group-item border-0 p-0">
+                    <a
+                      class="dropdown-item py-2 ps-3 border-radius-md"
+                      href="javascript:;">
+                      <div class="d-flex">
+                        <div
+                          class="w-100 d-flex align-items-center justify-content-between">
+                          <div>
+                            <h6
+                              class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">
                               Linguini
                             </h6>
                           </div>

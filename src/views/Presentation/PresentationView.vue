@@ -7,9 +7,6 @@ import DefaultFooter from "../../examples/footers/FooterDefault.vue";
 import Header from "../../examples/Header.vue";
 import FilledInfoCard from "../../examples/cards/infoCards/FilledInfoCard.vue";
 
-//Vue Material Kit 2 components
-import MaterialSocialButton from "@/components/MaterialSocialButton.vue";
-
 // sections
 import PresentationCounter from "./Sections/PresentationCounter.vue";
 import PresentationPages from "./Sections/PresentationPages.vue";
@@ -53,20 +50,18 @@ onUnmounted(() => {
     <div
       class="page-header min-vh-75"
       :style="`background-image: url(${vueMkHeader})`"
-      loading="lazy"
-    >
+      loading="lazy">
       <div class="container">
         <div class="row">
           <div class="col-lg-7 text-center mx-auto position-relative">
             <h1
               class="text-white pt-3 mt-n5 me-2"
-              :style="{ display: 'inline-block ' }"
-            >
-              Material Kit 2
+              :style="{ display: 'inline-block ' }">
+              IOL Reasoning Model
             </h1>
             <p class="lead text-white px-5 mt-3" :style="{ fontWeight: '500' }">
-              Start the Development With Bootstrap 5 Design System inspired by
-              Material Design.
+              Solving International Olympiad in Linguistics problems with Large
+              Reasoning Models.
             </p>
           </div>
         </div>
@@ -75,15 +70,15 @@ onUnmounted(() => {
   </Header>
 
   <div class="card card-body blur shadow-blur mx-3 mx-md-4 mt-n6">
-    <PresentationCounter />
+    <!-- <PresentationCounter />
     <PresentationInformation />
     <PresentationExample :data="data" />
     <PresentationPages />
-    <BuiltByDevelopers />
+    <BuiltByDevelopers /> -->
 
     <div class="container">
       <div class="row">
-        <div class="col-lg-4">
+        <!-- <div class="col-lg-4">
           <FilledInfoCard
             class="p-4"
             :color="{ text: 'white', background: 'bg-gradient-success' }"
@@ -94,8 +89,7 @@ onUnmounted(() => {
               route:
                 'https://www.creative-tim.com/learning-lab/vue/overview/material-kit/',
               label: { text: 'Let\'s start', color: 'white' }
-            }"
-          />
+            }" />
         </div>
         <div class="col-lg-4">
           <FilledInfoCard
@@ -109,8 +103,7 @@ onUnmounted(() => {
               route:
                 'https://www.creative-tim.com/learning-lab/vue/input/material-kit/',
               label: { text: 'Read more' }
-            }"
-          />
+            }" />
         </div>
         <div class="col-lg-4">
           <FilledInfoCard
@@ -123,9 +116,8 @@ onUnmounted(() => {
               route:
                 'https://www.creative-tim.com/learning-lab/vue/utilities/material-kit/',
               label: { text: 'Read more' }
-            }"
-          />
-        </div>
+            }" />
+        </div> -->
       </div>
     </div>
     <PresentationTestimonials />
@@ -134,15 +126,13 @@ onUnmounted(() => {
       class="container-fluid mt-sm-5 border-radius-xl"
       :style="{
         background: 'linear-gradient(195deg, rgb(66, 66, 74), rgb(25, 25, 25))'
-      }"
-    >
+      }">
       <div
         class="page-header py-6 py-md-5 my-sm-3 mb-3 border-radius-xl"
         :style="{
           backgroundImage: `url(${wavesWhite})`
         }"
-        loading="lazy"
-      >
+        loading="lazy">
         <span class="mask bg-gradient-dark"></span>
         <div class="container">
           <div class="row">
@@ -179,115 +169,73 @@ onUnmounted(() => {
               href="https://www.creative-tim.com/product/material-kit"
               data-bs-toggle="tooltip"
               data-bs-placement="bottom"
-              title="Bootstrap 5 - Most popular front-end component library"
-            >
+              title="Bootstrap 5 - Most popular front-end component library">
               <img
                 :src="logoBootstrap"
                 alt="title"
                 loading="lazy"
-                :style="{ height: '90px' }"
-              />
+                :style="{ height: '90px' }" />
             </a>
             <a
               class="opacity-5 ms-3"
               href="#"
               data-bs-toggle="tooltip"
               data-bs-placement="bottom"
-              title="Coming Soon"
-            >
+              title="Coming Soon">
               <img
                 :src="logoTailwind"
                 alt="title"
                 loading="lazy"
-                :style="{ height: '90px' }"
-              />
+                :style="{ height: '90px' }" />
             </a>
             <a
               href="https://www.creative-tim.com/product/vue-material-kit-pro"
               class="mx-3"
               data-bs-toggle="tooltip"
               data-bs-placement="bottom"
-              title="Vue.js - Is a Progressive JavaScript Framework"
-            >
+              title="Vue.js - Is a Progressive JavaScript Framework">
               <img
                 :src="logoVue"
                 alt="title"
                 loading="lazy"
-                :style="{ height: '90px' }"
-              />
+                :style="{ height: '90px' }" />
             </a>
             <a
               class="opacity-5"
               href="#"
               data-bs-toggle="tooltip"
               data-bs-placement="bottom"
-              title="Coming Soon"
-            >
+              title="Coming Soon">
               <img
                 :src="logoAngular"
                 alt="title"
                 loading="lazy"
-                :style="{ height: '90px' }"
-              />
+                :style="{ height: '90px' }" />
             </a>
             <a
               href="https://www.creative-tim.com/product/material-kit-react-pro"
               class="mx-3"
               data-bs-toggle="tooltip"
               data-bs-placement="bottom"
-              title="React – A JavaScript library for building user interfaces"
-            >
+              title="React – A JavaScript library for building user interfaces">
               <img
                 :src="logoReact"
                 alt="title"
                 loading="lazy"
-                :style="{ height: '90px' }"
-              />
+                :style="{ height: '90px' }" />
             </a>
             <a
               class="opacity-5"
               href="#"
               data-bs-toggle="tooltip"
               data-bs-placement="bottom"
-              title="Coming Soon"
-            >
+              title="Coming Soon">
               <img
                 :src="logoSketch"
                 alt="title"
                 loading="lazy"
-                :style="{ height: '90px' }"
-              />
+                :style="{ height: '90px' }" />
             </a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="py-5">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-5 ms-auto">
-            <h4 class="mb-1">Thank you for your support!</h4>
-            <p class="lead mb-0">We deliver the best web products</p>
-          </div>
-          <div class="col-lg-5 me-lg-auto my-lg-auto text-lg-end mt-5">
-            <MaterialSocialButton
-              route="https://twitter.com/intent/tweet?text=Check%20Material%20Design%20System%20made%20by%20%40CreativeTim%20%23webdesign%20%23designsystem%20%23bootstrap5&url=https%3A%2F%2Fwww.creative-tim.com%2Fproduct%2Fmaterial-design-system-pro"
-              component="twitter"
-              color="twitter"
-              label="Tweet"
-            />
-            <MaterialSocialButton
-              route="https://www.facebook.com/sharer/sharer.php?u=https://www.creative-tim.com/product/material-design-system-pro"
-              component="facebook-square"
-              color="facebook"
-              label="Share"
-            />
-            <MaterialSocialButton
-              route=""
-              component="pinterest"
-              color="pinterest"
-              label="Pin it"
-            />
           </div>
         </div>
       </div>
