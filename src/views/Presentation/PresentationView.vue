@@ -5,26 +5,13 @@ import { onMounted, onUnmounted } from "vue";
 import NavbarDefault from "../..//examples/navbars/NavbarDefault.vue";
 import DefaultFooter from "../../examples/footers/FooterDefault.vue";
 import Header from "../../examples/Header.vue";
-import FilledInfoCard from "../../examples/cards/infoCards/FilledInfoCard.vue";
 
 // sections
-import PresentationCounter from "./Sections/PresentationCounter.vue";
-import PresentationPages from "./Sections/PresentationPages.vue";
-import PresentationExample from "./Sections/PresentationExample.vue";
-import data from "./Sections/Data/designBlocksData";
-import BuiltByDevelopers from "./Components/BuiltByDevelopers.vue";
 import PresentationTestimonials from "./Sections/PresentationTestimonials.vue";
-import PresentationInformation from "./Sections/PresentationInformation.vue";
 
 //images
 import vueMkHeader from "@/assets/img/vue-mk-header.jpg";
 import wavesWhite from "@/assets/img/waves-white.svg";
-import logoBootstrap from "@/assets/img/logos/bootstrap5.jpg";
-import logoTailwind from "@/assets/img/logos/icon-tailwind.jpg";
-import logoVue from "@/assets/img/logos/vue.jpg";
-import logoAngular from "@/assets/img/logos/angular.jpg";
-import logoReact from "@/assets/img/logos/react.jpg";
-import logoSketch from "@/assets/img/logos/sketch.jpg";
 
 //hooks
 const body = document.getElementsByTagName("body")[0];
@@ -53,7 +40,8 @@ onUnmounted(() => {
       loading="lazy">
       <div class="container">
         <div class="row">
-          <div class="col-lg-7 text-center mx-auto position-relative">
+          <div
+            class="text-center mx-auto position-relative justify-content-center">
             <h1
               class="text-white pt-3 mt-n5 me-2"
               :style="{ display: 'inline-block ' }">
@@ -77,48 +65,7 @@ onUnmounted(() => {
     <BuiltByDevelopers /> -->
 
     <div class="container">
-      <div class="row">
-        <!-- <div class="col-lg-4">
-          <FilledInfoCard
-            class="p-4"
-            :color="{ text: 'white', background: 'bg-gradient-success' }"
-            :icon="{ component: 'flag', color: 'white' }"
-            title="Getting Started"
-            description="Check the possible ways of working with our product and the necessary files for building your own project."
-            :action="{
-              route:
-                'https://www.creative-tim.com/learning-lab/vue/overview/material-kit/',
-              label: { text: 'Let\'s start', color: 'white' }
-            }" />
-        </div>
-        <div class="col-lg-4">
-          <FilledInfoCard
-            class="px-lg-1 mt-lg-0 mt-4 p-4"
-            height="h-100"
-            :icon="{ component: 'precision_manufacturing', color: 'success' }"
-            title="Plugins"
-            description="Get inspiration and have an overview about the plugins that we
-                used to create the Material Kit."
-            :action="{
-              route:
-                'https://www.creative-tim.com/learning-lab/vue/input/material-kit/',
-              label: { text: 'Read more' }
-            }" />
-        </div>
-        <div class="col-lg-4">
-          <FilledInfoCard
-            class="px-lg-1 mt-lg-0 mt-4 p-4"
-            :icon="{ component: 'receipt_long', color: 'success' }"
-            title="Utility Classes"
-            description="Material Kit is giving you a lot of pre-made elements. For those
-                who want flexibility, we included many utility classes."
-            :action="{
-              route:
-                'https://www.creative-tim.com/learning-lab/vue/utilities/material-kit/',
-              label: { text: 'Read more' }
-            }" />
-        </div> -->
-      </div>
+      <div class="row"></div>
     </div>
     <PresentationTestimonials />
 
@@ -137,21 +84,18 @@ onUnmounted(() => {
         <div class="container">
           <div class="row">
             <div class="d-flex justify-content-center p-5">
-              <div class="col-lg-8 ms-lg-5 text-center">
+              <div class="col-lg-8 text-center">
                 <h3 class="text-white">
-                  Do you love this awesome UI Kit from Vuejs & Bootstrap?
+                  How do we know that this is the best solution?
                 </h3>
-                <p class="text-white text-md">
-                  Cause if you do, it can be yours for FREE. Hit the button
-                  below to navigate to Creative Tim where you can <br />
-                  find the Design System in HTML. Start a new project or give an
-                  old Bootstrap project a new look!
+                <p class="text-white font-weight-normal text-lg">
+                  Body text goes here
                 </p>
 
-                <a
-                  href="https://www.creative-tim.com/product/vue-material-kit"
-                  class="btn btn-sm mb-0 bg-gradient-success px-5 py-3 mt-4"
-                  >Download Now</a
+                <RouterLink
+                  to="/overview"
+                  class="btn btn-sm mb-0 bg-gradient-success px-5 py-3 mt-4 text-md">
+                  Project Overview</RouterLink
                 >
               </div>
             </div>
@@ -162,80 +106,20 @@ onUnmounted(() => {
 
     <div class="container">
       <div class="row">
-        <div class="d-flex flex-column w-100 text-center p-5 mb-8">
-          <h3>Available on these technologies</h3>
-          <div class="d-flex justify-content-center mt-3 flex-wrap">
-            <a
-              href="https://www.creative-tim.com/product/material-kit"
-              data-bs-toggle="tooltip"
-              data-bs-placement="bottom"
-              title="Bootstrap 5 - Most popular front-end component library">
-              <img
-                :src="logoBootstrap"
-                alt="title"
-                loading="lazy"
-                :style="{ height: '90px' }" />
-            </a>
-            <a
-              class="opacity-5 ms-3"
-              href="#"
-              data-bs-toggle="tooltip"
-              data-bs-placement="bottom"
-              title="Coming Soon">
-              <img
-                :src="logoTailwind"
-                alt="title"
-                loading="lazy"
-                :style="{ height: '90px' }" />
-            </a>
-            <a
-              href="https://www.creative-tim.com/product/vue-material-kit-pro"
-              class="mx-3"
-              data-bs-toggle="tooltip"
-              data-bs-placement="bottom"
-              title="Vue.js - Is a Progressive JavaScript Framework">
-              <img
-                :src="logoVue"
-                alt="title"
-                loading="lazy"
-                :style="{ height: '90px' }" />
-            </a>
-            <a
-              class="opacity-5"
-              href="#"
-              data-bs-toggle="tooltip"
-              data-bs-placement="bottom"
-              title="Coming Soon">
-              <img
-                :src="logoAngular"
-                alt="title"
-                loading="lazy"
-                :style="{ height: '90px' }" />
-            </a>
-            <a
-              href="https://www.creative-tim.com/product/material-kit-react-pro"
-              class="mx-3"
-              data-bs-toggle="tooltip"
-              data-bs-placement="bottom"
-              title="React – A JavaScript library for building user interfaces">
-              <img
-                :src="logoReact"
-                alt="title"
-                loading="lazy"
-                :style="{ height: '90px' }" />
-            </a>
-            <a
-              class="opacity-5"
-              href="#"
-              data-bs-toggle="tooltip"
-              data-bs-placement="bottom"
-              title="Coming Soon">
-              <img
-                :src="logoSketch"
-                alt="title"
-                loading="lazy"
-                :style="{ height: '90px' }" />
-            </a>
+        <div class="d-flex justify-content-center p-5">
+          <div class="col-lg-8 text-center">
+            <h3 class="text-black">
+              Compare our solution with other benchmarks...
+            </h3>
+            <p class="text-black font-weight-normal text-lg">
+              Body text goes here
+            </p>
+
+            <RouterLink
+              to="/benchmarks"
+              class="btn btn-sm mb-0 bg-gradient-success px-5 py-3 mt-4 text-md">
+              Read More</RouterLink
+            >
           </div>
         </div>
       </div>

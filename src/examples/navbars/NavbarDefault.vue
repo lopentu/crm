@@ -110,7 +110,7 @@ watch(
         ]"
         :to="{ name: 'presentation' }"
         rel="tooltip"
-        title="Designed and Coded by Creative Tim"
+        title="IOL Reasoning Model"
         data-placement="bottom">
         IOL Reasoning Model
       </RouterLink>
@@ -123,7 +123,7 @@ watch(
         "
         to="/"
         rel="tooltip"
-        title="Designed and Coded by Creative Tim"
+        title="IOL Reasoning Model"
         data-placement="bottom">
         IOL Reasoning Model
       </RouterLink>
@@ -145,7 +145,7 @@ watch(
         class="collapse navbar-collapse w-100 pt-3 pb-2 py-lg-0"
         id="navigation">
         <ul class="navbar-nav navbar-nav-hover ms-auto">
-          <li class="nav-item dropdown dropdown-hover mx-2">
+          <li class="nav-item mx-2">
             <RouterLink
               class="nav-link ps-2 d-flex cursor-pointer align-items-center"
               :class="getTextColor()"
@@ -153,7 +153,7 @@ watch(
               Overview
             </RouterLink>
           </li>
-          <li class="nav-item dropdown dropdown-hover mx-2">
+          <li class="nav-item mx-2">
             <RouterLink
               class="nav-link ps-2 d-flex cursor-pointer align-items-center"
               :class="getTextColor()"
@@ -161,7 +161,7 @@ watch(
               Architecture
             </RouterLink>
           </li>
-          <li class="nav-item dropdown dropdown-hover mx-2">
+          <li class="nav-item mx-2">
             <RouterLink
               class="nav-link ps-2 d-flex cursor-pointer align-items-center"
               :class="getTextColor()"
