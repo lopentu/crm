@@ -9,8 +9,8 @@ import DefaultCounterCard from "../../../../examples/cards/counterCards/DefaultC
         <div class="col-lg-2 col-md-4 col-6 mb-4">
           <img
             class="w-100 opacity-7"
-            src="@/assets/img/logos/gray-logos/logo-coinbase.svg"
-            alt="logo"
+            src="assets/img/logos/gray-logos/logo-coinbase.svg"
+            alt="可放語奧相關的標誌etc"
           />
         </div>
         <div class="col-lg-2 col-md-4 col-6 mb-4">
@@ -52,7 +52,7 @@ import DefaultCounterCard from "../../../../examples/cards/counterCards/DefaultC
       <div class="row justify-content-center text-center">
         <div class="col-md-3">
           <DefaultCounterCard
-            title="Projects"
+            title="研究成果"
             description="Of “high-performing” level are led by a certified project manager"
             :count="5234"
             :duration="3000"
@@ -60,7 +60,7 @@ import DefaultCounterCard from "../../../../examples/cards/counterCards/DefaultC
         </div>
         <div class="col-md-3">
           <DefaultCounterCard
-            title="Hours"
+            title="研究成果"
             description="That meets quality standards required by our users"
             :count="3400"
             suffix="+"
@@ -69,7 +69,7 @@ import DefaultCounterCard from "../../../../examples/cards/counterCards/DefaultC
         </div>
         <div class="col-md-3">
           <DefaultCounterCard
-            title="Support"
+            title="研究成果"
             description="Actively engage team members that finishes on time"
             :count="24"
             suffix="/7"
