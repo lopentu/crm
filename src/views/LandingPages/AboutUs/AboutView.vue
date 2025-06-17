@@ -31,7 +31,7 @@ onMounted(() => {
       backSpeed: 90,
       backDelay: 200,
       startDelay: 500,
-      loop: true,
+      loop: true
     });
   }
 });
@@ -42,19 +42,11 @@ onUnmounted(() => {
 });
 </script>
 <template>
-  <DefaultNavbar
-    :action="{
-      route: 'javascript:;',
-      label: 'Buy Now',
-      color: 'btn-white',
-    }"
-    transparent
-  />
+  <DefaultNavbar />
   <header class="bg-gradient-dark">
     <div
       class="page-header min-vh-75"
-      :style="{ backgroundImage: `url(${bg0})` }"
-    >
+      :style="{ backgroundImage: `url(${bg0})` }">
       <span class="mask bg-gradient-dark opacity-6"></span>
       <div class="container">
         <div class="row justify-content-center">
