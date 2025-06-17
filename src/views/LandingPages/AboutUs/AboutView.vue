@@ -59,14 +59,7 @@ onUnmounted(() => {
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-8 text-center mx-auto my-auto">
-            <h1 class="text-white">
-              Meet the <span class="text-white" id="typed"></span>
-            </h1>
-            <div id="typed-strings">
-              <h1>Team</h1>
-              <!-- <h1>design</h1>
-              <h1>tool</h1> -->
-            </div>
+            <h1 class="text-white">About Us</h1>
             <p class="lead mb-4 text-white opacity-8">
               This propject aims to...
             </p>
