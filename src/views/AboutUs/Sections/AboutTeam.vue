@@ -15,14 +15,19 @@ import marquez from "@/assets/img/ivana-square.jpg";
       <div class="row">
         <div class="col-md-8 text-start mb-5 mt-5">
           <h3 class="text-white z-index-1 position-relative">Members</h3>
-          <!-- <p class="text-white opacity-8 mb-0">
-            There’s nothing I really wanted to do in life that I wasn’t able to
-            get good at. That’s my skill.
-          </p> -->
         </div>
       </div>
       <div class="row">
-        <div class="col-lg-6 col-12">
+        <div class="col-lg-2 col-6">
+          <HorizontalTeamCard
+            class="mt-4"
+            :image="emma"
+            :profile="{ name: 'Member 1', link: 'javascript:;' }"
+            :position="{ label: '職位', color: 'success' }"
+            description="學籍"
+          />
+        </div>
+        <div class="col-lg-2 col-6">
           <HorizontalTeamCard
             class="mt-4"
             :image="emma"
@@ -32,17 +37,37 @@ import marquez from "@/assets/img/ivana-square.jpg";
                     activity deemed to be an art."
           />
         </div>
-        <div class="col-lg-6 col-12">
+        <div class="col-lg-2 col-6">
           <HorizontalTeamCard
-            class="mt-4"
-            :image="emma"
-            :profile="{ name: 'Emma Roberts', link: 'javascript:;' }"
-            :position="{ label: 'UI Designer', color: 'success' }"
+            class="mt-lg-4 mt-5"
+            :image="william"
+            :profile="{ name: 'William Pearce', link: 'javascript:;' }"
+            :position="{ label: 'Boss', color: 'success' }"
             description="Artist is a term applied to a person who engages in an
                     activity deemed to be an art."
           />
         </div>
-        <div class="col-lg-6 col-12">
+        <div class="col-lg-2 col-6">
+          <HorizontalTeamCard
+            class="mt-lg-4 mt-5"
+            :image="william"
+            :profile="{ name: 'William Pearce', link: 'javascript:;' }"
+            :position="{ label: 'Boss', color: 'success' }"
+            description="Artist is a term applied to a person who engages in an
+                    activity deemed to be an art."
+          />
+        </div>
+        <div class="col-lg-2 col-6">
+          <HorizontalTeamCard
+            class="mt-lg-4 mt-5"
+            :image="william"
+            :profile="{ name: 'William Pearce', link: 'javascript:;' }"
+            :position="{ label: 'Boss', color: 'success' }"
+            description="Artist is a term applied to a person who engages in an
+                    activity deemed to be an art."
+          />
+        </div>
+        <div class="col-lg-2 col-6">
           <HorizontalTeamCard
             class="mt-lg-4 mt-5"
             :image="william"
@@ -54,7 +79,7 @@ import marquez from "@/assets/img/ivana-square.jpg";
         </div>
       </div>
       <div class="row mt-4">
-        <div class="col-lg-6 col-12">
+        <div class="col-lg-2 col-6">
           <HorizontalTeamCard
             class="mt-4 z-index-2"
             :image="ivana"
@@ -64,7 +89,67 @@ import marquez from "@/assets/img/ivana-square.jpg";
                     activity deemed to be an art."
           />
         </div>
-        <div class="col-lg-6 col-12">
+        <div class="col-lg-2 col-6">
+          <HorizontalTeamCard
+            class="mt-lg-4 mt-5 z-index-2"
+            :image="marquez"
+            :profile="{ name: 'Marquez Garcia', link: 'javascript:;' }"
+            :position="{ label: 'JS Developer', color: 'success' }"
+            description="Artist is a term applied to a person who engages in an
+                    activity deemed to be an art."
+          />
+        </div>
+        <div class="col-lg-2 col-6">
+          <HorizontalTeamCard
+            class="mt-lg-4 mt-5 z-index-2"
+            :image="marquez"
+            :profile="{ name: 'Marquez Garcia', link: 'javascript:;' }"
+            :position="{ label: 'JS Developer', color: 'success' }"
+            description="Artist is a term applied to a person who engages in an
+                    activity deemed to be an art."
+          />
+        </div>
+        <div class="col-lg-2 col-6">
+          <HorizontalTeamCard
+            class="mt-lg-4 mt-5 z-index-2"
+            :image="marquez"
+            :profile="{ name: 'Marquez Garcia', link: 'javascript:;' }"
+            :position="{ label: 'JS Developer', color: 'success' }"
+            description="Artist is a term applied to a person who engages in an
+                    activity deemed to be an art."
+          />
+        </div>
+        <div class="col-lg-2 col-6">
+          <HorizontalTeamCard
+            class="mt-lg-4 mt-5 z-index-2"
+            :image="marquez"
+            :profile="{ name: 'Marquez Garcia', link: 'javascript:;' }"
+            :position="{ label: 'JS Developer', color: 'success' }"
+            description="Artist is a term applied to a person who engages in an
+                    activity deemed to be an art."
+          />
+        </div>
+        <div class="col-lg-2 col-6">
+          <HorizontalTeamCard
+            class="mt-lg-4 mt-5 z-index-2"
+            :image="marquez"
+            :profile="{ name: 'Marquez Garcia', link: 'javascript:;' }"
+            :position="{ label: 'JS Developer', color: 'success' }"
+            description="Artist is a term applied to a person who engages in an
+                    activity deemed to be an art."
+          />
+        </div>
+        <div class="col-lg-2 col-6">
+          <HorizontalTeamCard
+            class="mt-lg-4 mt-5 z-index-2"
+            :image="marquez"
+            :profile="{ name: 'Marquez Garcia', link: 'javascript:;' }"
+            :position="{ label: 'JS Developer', color: 'success' }"
+            description="Artist is a term applied to a person who engages in an
+                    activity deemed to be an art."
+          />
+        </div>
+        <div class="col-lg-2 col-6">
           <HorizontalTeamCard
             class="mt-lg-4 mt-5 z-index-2"
             :image="marquez"

@@ -25,7 +25,7 @@ onMounted(() => {
       backSpeed: 90,
       backDelay: 200,
       startDelay: 500,
-      loop: true
+      loop: true,
     });
   }
 });

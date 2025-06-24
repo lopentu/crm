@@ -55,9 +55,6 @@ onUnmounted(() => {
             <p class="lead mb-4 text-white opacity-8">
               This propject aims to...
             </p>
-            <!-- <button type="submit" class="btn bg-white text-dark">
-              Create Account
-            </button> -->
             <h6 class="text-white mb-2 mt-5">Find us on 可放連結</h6>
             <div class="d-flex justify-content-center">
               <a href="javascript:;"
