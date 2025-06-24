@@ -94,7 +94,7 @@ onUnmounted(() => {
 
                 <RouterLink
                   to="/overview"
-                  class="btn btn-sm mb-0 bg-gradient-success px-5 py-3 mt-4 text-md">
+                  class="btn btn-sm mb-0 bg-gradient-info px-5 py-3 mt-4 text-md">
                   Project Overview</RouterLink
                 >
               </div>
@@ -117,7 +117,7 @@ onUnmounted(() => {
 
             <RouterLink
               to="/benchmarks"
-              class="btn btn-sm mb-0 bg-gradient-success px-5 py-3 mt-4 text-md">
+              class="btn btn-sm mb-0 bg-gradient-info px-5 py-3 mt-4 text-md">
               Read More</RouterLink
             >
           </div>
