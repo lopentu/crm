@@ -10,7 +10,7 @@ import Header from "../../examples/Header.vue";
 import PresentationTestimonials from "./Sections/PresentationTestimonials.vue";
 
 //images
-import vueMkHeader from "@/assets/img/vue-mk-header.jpg";
+import vueMkHeader from "@/assets/img/background.png";
 import wavesWhite from "@/assets/img/waves-white.svg";
 
 //hooks
