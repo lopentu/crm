@@ -115,14 +115,49 @@ onUnmounted(() => {
       reasoning skills of AI models.
     </p>
     <h2 class="text-center my-3">LingOly</h2>
-    <p class="text-center mb-4 mx-3">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-      est laborum.
+    <p class="text-center mb-4 mx-3 font-weight-bold">
+      <a href="https://arxiv.org/abs/2406.06196"><b>LingOly</b></a> is a novel
+      benchmark of olympiad-level linguistic reasoning tasks drawn from the
+      United Kingdom Linguistics Olympiad (UKLO). It comprises a dataset of
+      1,133 puzzles across 94 languages, formatted into six puzzle types and
+      divided by difficulty, subject, format, and languages. These tasks are
+      designed so that all necessary information is included in the prompt and
+      models can't rely on prior knowledge or memorization. The LingOly
+      benchmark offers the combination of characteristics as below:
+    </p>
+    <ul class="font-weight-bold">
+      <li>Translation as a natural measure of linguistic reasoning skills</li>
+      <li>
+        Tasks in low-resource and/or extinct languages that require reasoning
+        beyond pre-training data
+      </li>
+      <li>
+        Challenging instructions within puzzles, including examples that provide
+        essential context about the language or tasks
+      </li>
+      <li>
+        Short, complete context and task pairs that can be solved without prior
+        knowledge
+      </li>
+    </ul>
+
+    <br />
+
+    <p class="text-center mb-4 mx-3 font-weight-bold">
+      Evaluation uses two main metrics: direct accuracy (exact match) on full
+      prompts, and improvement over a “no-context” baseline to control
+      memorization. 12 LLMs were tested, including closed models (GPT-4, GPT-4o,
+      Claude, Gemini) and open models (LLaMA 3, Gemma, Mixtral, etc.). The
+      benchmark is challenging with an average exact match score of 20.8% over
+      12 models. Even the top model (Claude Opus) achieved only 46.3% accuracy
+      in exact match and a 28.8% gain over baseline.
+
+      <br />
+      <br />
+      The result of the benchmarks shows that multi-step reasoning in
+      low-resource domains remains challenging for LLMs. Furthermore, open
+      models produced more errors than closed models, showing that instruction
+      following is a significant factor in performance.
     </p>
   </div>
   <DefaultFooter />
