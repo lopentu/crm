@@ -55,7 +55,21 @@ onUnmounted(() => {
     </div>
   </header>
   <div class="card card-body shadow-xl mx-3 mx-md-4 mt-n6">
-    <h2 class="text-center my-3">IOLBENCH</h2>
+    <h2 class="text-center my-3">Our Implementation</h2>
+    <p class="text-center mb-4 mx-3 font-weight-bold">
+      We have implemented a benchmark to evaluate the linguistic reasoning
+      capabilities of large language models (LLMs). Our benchmark is designed to
+      utilize the long test time of the International Linguistics Olympiad. To
+      construct our benchmark dataset, we included 100 problems from the IOL
+      archive, then dividing the data into two subsets. The first subset
+      consists of 14 problems, which are used to test the benchmark framework by
+      prompting the models to solve them then grade the answers manually. The
+      second subset consists of 86 problems, which are paired with the official
+      solutions and employed with Chain-of-Thought (CoT) to develop a solution
+      guide for the problems.
+    </p>
+    <h2 class="text-center my-3">Other Benchmarks</h2>
+    <h3 class="text-center my-3">IOLBENCH</h3>
     <p class="text-center mb-4 mx-3 font-weight-bold">
       <a href="https://arxiv.org/abs/2501.04249"><b>IOLBENCH</b></a> is a
       benchmark designed to assess the linguistic reasoning capabilities of
@@ -87,7 +101,7 @@ onUnmounted(() => {
       involving morphology and phonolgy (where rule induction and generalization
       are integral) pose significant challenges for large language models.
     </p>
-    <h2 class="text-center my-3">Linguini</h2>
+    <h3 class="text-center my-3">Linguini</h3>
     <p class="text-center mb-4 mx-3 font-weight-bold">
       Linguini is a benchmark designed to evaluate the linguistic reasoning
       abilities of language models without relying on prior knowledge of
@@ -114,7 +128,7 @@ onUnmounted(() => {
       offers a robust and language-agnostic way to assess the fundamental
       reasoning skills of AI models.
     </p>
-    <h2 class="text-center my-3">LingOly</h2>
+    <h3 class="text-center my-3">LingOly</h3>
     <p class="text-center mb-4 mx-3 font-weight-bold">
       <a href="https://arxiv.org/abs/2406.06196"><b>LingOly</b></a> is a novel
       benchmark of olympiad-level linguistic reasoning tasks drawn from the
@@ -125,7 +139,7 @@ onUnmounted(() => {
       models can't rely on prior knowledge or memorization. The LingOly
       benchmark offers the combination of characteristics as below:
     </p>
-    <ul class="font-weight-bold">
+    <ul class="font-weight-bold text-center items-center">
       <li>Translation as a natural measure of linguistic reasoning skills</li>
       <li>
         Tasks in low-resource and/or extinct languages that require reasoning
