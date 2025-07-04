@@ -103,7 +103,8 @@ onUnmounted(() => {
     </p>
     <h3 class="text-center my-3">Linguini</h3>
     <p class="text-center mb-4 mx-3 font-weight-bold">
-      Linguini is a benchmark designed to evaluate the linguistic reasoning
+      <a href="https://arxiv.org/abs/2409.12126"><b>Linguini</b></a> 
+      is a benchmark designed to evaluate the linguistic reasoning
       abilities of language models without relying on prior knowledge of
       specific languages. Developed from problems featured in the International
       Linguistics Olympiad (IOL), Linguini includes 894 questions across 160
@@ -139,7 +140,7 @@ onUnmounted(() => {
       models can't rely on prior knowledge or memorization. The LingOly
       benchmark offers the combination of characteristics as below:
     </p>
-    <ul class="font-weight-bold text-center items-center">
+    <ul class="font-weight-bold text-left items-center">
       <li>Translation as a natural measure of linguistic reasoning skills</li>
       <li>
         Tasks in low-resource and/or extinct languages that require reasoning
