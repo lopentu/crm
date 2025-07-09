@@ -11,8 +11,8 @@ import justin from "@/assets/img/IMG_3391.jpg";
 </script>
 
 <template>
-  <section class="pb-5 position-relative bg-gradient-dark mx-n3">
-    <div class="container">
+  <section class="pb-5 position-relative">
+    <div class="container bg-gradient-dark overflow-hidden py-5 px-4 shadow" style="border-radius: 16px;">
       <div class="row">
         <div class="col-md-8 text-start mb-5 mt-5">
           <h3 class="text-white z-index-1 position-relative">Members</h3>
