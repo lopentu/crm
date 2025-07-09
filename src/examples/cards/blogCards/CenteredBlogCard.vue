@@ -19,7 +19,7 @@ defineProps({
     label: String,
     default: () => ({
       color: "bg-gradient-success",
-      label: "The LOPE Lab",
+      label: "This is default",
       route: "https://lope.linguistics.ntu.edu.tw/",
     }),
   },
@@ -48,8 +48,9 @@ defineProps({
         :href="action.route"
         target="_blank"
         rel="noopener"
-        class="btn btn-sm mb-0 mt-3 text-capitalize"
+        class="btn btn-sm mb-0 mt-3"
         :class="action.color"
+        style="text-transform: none"
       >
         {{ action.label }}
       </a>
