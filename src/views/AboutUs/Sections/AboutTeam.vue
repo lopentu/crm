@@ -32,7 +32,7 @@ import justin from "@/assets/img/IMG_3391.jpg";
           <HorizontalTeamCard
             class="mt-4"
             :image="justin"
-            :profile="{ name: 'Justin Chen', link: 'javascript:;' }"
+            :profile="{ name: 'Justin Chen', link: 'https://github.com/JustinChen516' }"
             :position="{ label: '職位', color: 'success' }"
             description="Artist is a term applied to a person who engages in an
                     activity deemed to be an art."

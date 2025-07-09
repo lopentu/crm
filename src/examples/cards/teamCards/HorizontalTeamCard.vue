@@ -32,7 +32,16 @@ defineProps({
         style="width: 120px; height: 120px; object-fit: cover"
       />
     </a>
-    <h6 class="mb-1 text-white">{{ profile.name }}</h6>
+    <h6 class="mb-1">
+      <a
+        :href="profile.link"
+        target="_blank"
+        rel="noopener"
+        class="text-white text-decoration-none"
+      >
+        {{ profile.name }}
+      </a>
+    </h6>
     <p :class="`text-${position.color} text-sm mb-1`">{{ position.label }}</p>
     <p class="text-white-50 text-sm">{{ description }}</p>
   </div>
