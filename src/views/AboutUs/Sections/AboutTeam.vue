@@ -7,6 +7,7 @@ import emma from "@/assets/img/team-5.jpg";
 import william from "@/assets/img/bruce-mars.jpg";
 import ivana from "@/assets/img/ivana-squares.jpg";
 import marquez from "@/assets/img/ivana-square.jpg";
+import justin from "@/assets/img/IMG_3391.jpg";
 </script>
 
 <template>
@@ -30,9 +31,9 @@ import marquez from "@/assets/img/ivana-square.jpg";
         <div class="col-lg-2 col-6">
           <HorizontalTeamCard
             class="mt-4"
-            :image="emma"
-            :profile="{ name: 'Emma Roberts', link: 'javascript:;' }"
-            :position="{ label: 'UI Designer', color: 'success' }"
+            :image="justin"
+            :profile="{ name: 'Justin Chen', link: 'javascript:;' }"
+            :position="{ label: '職位', color: 'success' }"
             description="Artist is a term applied to a person who engages in an
                     activity deemed to be an art."
           />
