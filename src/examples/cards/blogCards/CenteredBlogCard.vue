@@ -19,7 +19,8 @@ defineProps({
     label: String,
     default: () => ({
       color: "bg-gradient-success",
-      label: "Find Out More",
+      label: "The LOPE Lab",
+      route: "https://lope.linguistics.ntu.edu.tw/",
     }),
   },
 });
@@ -27,20 +28,31 @@ defineProps({
 <template>
   <div class="card">
     <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
-      <a :href="action.route" class="d-block blur-shadow-image">
+      <a
+        :href="action.route"
+        target="_blank"
+        rel="noopener"
+        class="d-block blur-shadow-image"
+      >
         <img :src="image" :alt="title" class="img-fluid border-radius-lg" />
       </a>
     </div>
+
     <div class="card-body text-center">
       <h5 class="font-weight-normal">
-        <a href="javascript:;">{{ title }}</a>
+        <a href="javascript:void(0);">{{ title }}</a>
       </h5>
-      <p class="mb-0">
-        {{ description }}
-      </p>
-      <button type="button" class="btn btn-sm mb-0 mt-3" :class="action.color">
+
+      <p class="mb-0">{{ description }}</p>
+      <a
+        :href="action.route"
+        target="_blank"
+        rel="noopener"
+        class="btn btn-sm mb-0 mt-3 text-capitalize"
+        :class="action.color"
+      >
         {{ action.label }}
-      </button>
+      </a>
     </div>
   </div>
 </template>

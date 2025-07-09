@@ -37,7 +37,13 @@ import CenteredBlogCard from "../../../examples/cards/blogCards/CenteredBlogCard
           <CenteredBlogCard
             image="https://images.unsplash.com/photo-1544717302-de2939b7ef71?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
             title="謝舒凱 教授"
-            description="經驗/履歷" />
+            description="經驗／履歷"
+            :action="{
+              label: 'Visit the LOPE Lab',
+              color: 'bg-gradient-success',
+              route: 'https://lope.linguistics.ntu.edu.tw/'
+            }"
+          />
         </div>
       </div>
     </div>
