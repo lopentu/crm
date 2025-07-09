@@ -41,7 +41,8 @@ import CenteredBlogCard from "../../../examples/cards/blogCards/CenteredBlogCard
             :action="{
               label: 'Visit the LOPE Lab',
               color: 'bg-gradient-success',
-              route: 'https://lope.linguistics.ntu.edu.tw/'
+              route: 'https://lope.linguistics.ntu.edu.tw/',
+              titleRoute: 'https://loperntu.github.io/',
             }"
           />
         </div>

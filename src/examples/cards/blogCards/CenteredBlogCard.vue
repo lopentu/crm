@@ -17,10 +17,12 @@ defineProps({
     color: String,
     route: String,
     label: String,
+    titleRoute: String,
     default: () => ({
       color: "bg-gradient-success",
       label: "This is default",
       route: "https://lope.linguistics.ntu.edu.tw/",
+      titleRoute: 'https://loperntu.github.io/'  // name link
     }),
   },
 });
@@ -40,7 +42,14 @@ defineProps({
 
     <div class="card-body text-center">
       <h5 class="font-weight-normal">
-        <a href="javascript:void(0);">{{ title }}</a>
+        <a
+          :href="action.titleRoute"
+          target="_blank"
+          rel="noopener"
+          class="text-decoration-none"
+        >
+          {{ title }}
+        </a>
       </h5>
 
       <p class="mb-0">{{ description }}</p>
