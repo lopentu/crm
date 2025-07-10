@@ -13,7 +13,7 @@ import CenteredBlogCard from "../../../examples/cards/blogCards/CenteredBlogCard
               color="info"
               icon="public"
               title="Goal"
-              description="1" />
+              description="可能來寫我們是誰 怎麼組成的等等？會比較好 避免跟overview衝突到" />
             <DefaultInfoCard
               color="info"
               icon="payments"
