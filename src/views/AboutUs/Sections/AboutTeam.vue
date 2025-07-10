@@ -6,16 +6,16 @@ import HorizontalTeamCard from "@/examples/cards/teamCards/HorizontalTeamCard.vu
 import william from "@/assets/img/bruce-mars.jpg";
 import ivana from "@/assets/img/ivana-squares.jpg";
 import marquez from "@/assets/img/ivana-square.jpg";
-import justin from "@/assets/img/photo/Justin.jpg";
-import una from "@/assets/img/photo/Una.png";
+import justin from "@/assets/img/teamPhoto/Justin.jpg";
+import una from "@/assets/img/teamPhoto/Una.png";
 </script>
 
 <template>
   <section class="pb-5 position-relative">
     <div class="container bg-gradient-dark overflow-hidden py-5 px-4 shadow" style="border-radius: 16px;">
       <div class="row">
-        <div class="col-md-8 text-start mb-5 mt-5">
-          <h3 class="text-white z-index-1 position-relative">Members</h3>
+        <div class="col-lg-2 col-6 mb-4 d-flex justify-content-center">
+          <h3 class="text-white z-index-1 m-0">Members</h3>
         </div>
       </div>
       <div class="row">
