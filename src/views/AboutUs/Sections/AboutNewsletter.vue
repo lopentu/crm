@@ -1,4 +1,4 @@
-<script setup>
+<!-- <script setup>
 import { onMounted } from "vue";
 //Vue Material Kit 2 components
 import MaterialInput from "@/components/MaterialInput.vue";
@@ -51,4 +51,4 @@ onMounted(() => {
       </div>
     </div>
   </section>
-</template>
+</template> -->

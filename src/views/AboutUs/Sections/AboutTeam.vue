@@ -25,7 +25,7 @@ import una from "@/assets/img/photo/Una.png";
             :image="una"
             :profile="{ name: 'Una Chen', link: 'https://github.com/cckk2913' }"
             :position="{ label: '博士生', color: 'success' }"
-            description="臺大語言所"
+            description="國立臺灣大學"
           />
         </div>
         <div class="col-lg-2 col-6">
