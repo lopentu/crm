@@ -1,47 +1,54 @@
 <script setup>
 // example component
 import DefaultCounterCard from "../../../examples/cards/counterCards/DefaultCounterCard.vue";
+import ilo from "@/assets/img/aboutUsLogo/ILO.png";
 </script>
 <template>
   <section class="pt-4 pb-6" id="count-stats">
     <div class="container">
       <div class="row mb-7">
-        <div class="col-lg-2 col-md-4 col-6 mb-4">
+        <div class="col-lg-4 col-md-6 col-10 mb-4">
+        <a
+          href="https://iol2025.ioling.org/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="d-block"
+        >
           <img
-            class="w-100 opacity-7"
-            src="assets/img/logos/gray-logos/logo-coinbase.svg"
-            alt="可放語奧相關的標誌etc" />
-        </div>
-        <div class="col-lg-2 col-md-4 col-6 mb-4">
+            :src="ilo"
+            class="w-100 opacity-100"
+            alt="International Linguistics Olympiad 2025 logo"
+          />
+        </a>
+      </div>
+      <div class="col-lg-4 col-md-6 col-10 mb-4">
+        <a
+          href="https://iol2025.ioling.org/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="d-block"
+        >
           <img
-            class="w-100 opacity-7"
-            src="@/assets/img/logos/gray-logos/logo-nasa.svg"
-            alt="logo" />
-        </div>
-        <div class="col-lg-2 col-md-4 col-6 mb-4">
+            :src="i"
+            class="w-100 opacity-100"
+            alt="在想可以放做出來的App"
+          />
+        </a>
+      </div>
+      <div class="col-lg-4 col-md-6 col-10 mb-4">
+        <a
+          href="https://iol2025.ioling.org/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="d-block"
+        >
           <img
-            class="w-100 opacity-7"
-            src="@/assets/img/logos/gray-logos/logo-netflix.svg"
-            alt="logo" />
-        </div>
-        <div class="col-lg-2 col-md-4 col-6 mb-4">
-          <img
-            class="w-100 opacity-7"
-            src="@/assets/img/logos/gray-logos/logo-pinterest.svg"
-            alt="logo" />
-        </div>
-        <div class="col-lg-2 col-md-4 col-6 mb-4">
-          <img
-            class="w-100 opacity-7"
-            src="@/assets/img/logos/gray-logos/logo-spotify.svg"
-            alt="logo" />
-        </div>
-        <div class="col-lg-2 col-md-4 col-6 mb-4">
-          <img
-            class="w-100 opacity-7"
-            src="@/assets/img/logos/gray-logos/logo-vodafone.svg"
-            alt="logo" />
-        </div>
+            :src="i"
+            class="w-100 opacity-100"
+            alt="放寫出來的paper"
+          />
+        </a>
+      </div>
       </div>
       <div class="row justify-content-center text-center">
         <div class="col-md-3">
