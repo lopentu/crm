@@ -45,12 +45,10 @@ onUnmounted(() => {
             <h1
               class="text-white pt-3 mt-n5 me-2"
               :style="{ display: 'inline-block ' }">
-              IOL Reasoning Model
+              Cultural Reasoning Model
             </h1>
-            <p class="lead text-white px-5 mt-3" :style="{ fontWeight: '500' }">
-              Solving International Olympiad in Linguistics problems with Large
-              Reasoning Models.
-            </p>
+            <p class="lead text-white px-5 mt-3" :style="{ whiteSpace: 'nowrap', fontWeight: '500' }">
+              A novel framework that integrates the inferential strengths of large-scale reasoning models with the contextual sensitivity of cultural logic.            </p>
           </div>
         </div>
       </div>
