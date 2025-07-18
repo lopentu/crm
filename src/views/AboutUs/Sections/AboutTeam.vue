@@ -43,7 +43,7 @@ import peter from "@/assets/img/teamPhoto/Peter.png";
           <HorizontalTeamCard
             class="mt-lg-4 mt-5"
             :image="peter"
-            :profile="{ name: 'Peter Chen', link: 'javascript:;' }"
+            :profile="{ name: 'Peter Chen', link: 'https://github.com/gPeterh' }"
             :position="{ label: '研究助理', color: 'success' }"
             description="國立臺灣大學"
           />
@@ -52,7 +52,7 @@ import peter from "@/assets/img/teamPhoto/Peter.png";
           <HorizontalTeamCard
             class="mt-lg-4 mt-5"
             :image="jenny"
-            :profile="{ name: 'Jenny Lin', link: 'javascript:;' }"
+            :profile="{ name: 'Jenny Lin', link: 'https://github.com/Lin-Zhen-Yu' }"
             :position="{ label: '研究助理', color: 'success' }"
             description="國立臺灣大學"
           />
