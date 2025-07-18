@@ -33,10 +33,10 @@ import peter from "@/assets/img/teamPhoto/Peter.png";
         <div class="col-lg-2 col-6">
           <HorizontalTeamCard
             class="mt-4"
-            :image="justin"
-            :profile="{ name: 'Justin Chen', link: 'https://github.com/JustinChen516' }"
-            :position="{ label: '實習生', color: 'success' }"
-            description="聖路易斯華盛頓大學"
+            :image="william"
+            :profile="{ name: 'CCC', link: 'javacript:;' }"
+            :position="{ label: 'CCC', color: 'success' }"
+            description="等待中"
           />
         </div>
         <div class="col-lg-2 col-6">
@@ -122,11 +122,10 @@ import peter from "@/assets/img/teamPhoto/Peter.png";
         <div class="col-lg-2 col-6">
           <HorizontalTeamCard
             class="mt-lg-4 mt-5 z-index-2"
-            :image="marquez"
-            :profile="{ name: 'Marquez Garcia', link: 'javascript:;' }"
-            :position="{ label: 'JS Developer', color: 'success' }"
-            description="Artist is a term applied to a person who engages in an
-                    activity deemed to be an art."
+            :image="justin"
+            :profile="{ name: 'Justin Chen', link: 'https://github.com/JustinChen516' }"
+            :position="{ label: '實習生', color: 'success' }"
+            description="聖路易斯華盛頓大學"
           />
         </div>
         <div class="col-lg-2 col-6">
