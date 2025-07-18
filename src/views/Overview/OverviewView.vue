@@ -46,35 +46,110 @@ onUnmounted(() => {
         <div class="row justify-content-center">
           <div class="col-lg-8 text-center mx-auto my-auto">
             <h1 class="text-white">Overview</h1>
-            <p class="lead mb-4 text-white opacity-8">
-              This propject aims to...
-            </p>
           </div>
         </div>
       </div>
     </div>
   </header>
+  
+  <!-- ░░ Content Card ░░ -->
   <div class="card card-body shadow-xl mx-3 mx-md-4 mt-n6">
-    <h2 class="text-center my-3">LLM Reasoning Model</h2>
-    <p class="text-center mb-4 mx-3">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-      est laborum.
-    </p>
-    <h2 class="text-center my-3">IOL Problems</h2>
-    <p class="text-center mb-4 mx-3">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-      est laborum.
-    </p>
+    <h2 class="text-center my-5 fw-bold">
+      Shared Core Characteristics of IOL and Legal Reasoning Models
+    </h2>
+
+    <!-- SECTION TEMPLATE -->
+    <section v-for="block in blocks" :key="block.title" class="mb-5">
+      <h4 class="fw-bold">{{ block.title }}</h4>
+      <p class="mb-3" v-html="block.summary" />
+
+      <table class="table w-100">
+        <colgroup>
+          <col style="width: 30%" />
+          <col style="width: 70%" />
+        </colgroup>
+        <tbody>
+          <tr>
+            <th class="bg-light text-start">In IOL Problems</th>
+            <td class="text-start">{{ block.iol }}</td>
+          </tr>
+          <tr>
+            <th class="bg-light text-start">In Legal Arguments</th>
+            <td class="text-start">{{ block.legal }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
   </div>
+
+  <!-- ░░ Footer ░░ -->
   <DefaultFooter />
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      blocks: [
+        {
+          title: "Primacy of Non‑Formal Logic",
+          summary:
+            "Both domains primarily rely on <em>informal or defeasible reasoning</em> rather than formal symbolic logic (e.g., first‑order logic).",
+          iol:
+            "Solutions hinge on discovering latent rules through pattern recognition, analogy, and abductive reasoning.",
+          legal:
+            "Arguments are built via interpretation, precedent, and balancing competing norms and values—not strict deductive validity.",
+        },
+        {
+          title: "Contextual and Normative Reasoning",
+          summary:
+            "These tasks are deeply embedded in <em>social, cultural, and normative frameworks</em>.",
+          iol:
+            "Students infer internal logic of a language system that reflects cultural or typological constraints.",
+          legal:
+            "Statutes or cases are interpreted in light of societal values, legal traditions, and institutional roles.",
+        },
+        {
+          title: "Multi‑step, Hypothetical, Non‑Monotonic Inference",
+          summary:
+            "Solutions typically involve <em>multi‑stage reasoning</em> with hypotheses that may be revised or retracted.",
+          iol:
+            "Students propose rules that fit examples but must revise them if contradictions arise.",
+          legal:
+            "Legal reasoning unfolds by weighing counter‑examples, exceptions, and competing interpretations—mirroring non‑monotonic logic where conclusions are defeasible.",
+        },
+        {
+          title: "Reasonableness over Mathematical Correctness",
+          summary:
+            "Evaluation prioritizes <em>plausibility, justification, and coherence</em> over formal provability.",
+          iol:
+            "Rewards include not only correct answers but clearly stated reasoning processes.",
+          legal:
+            "Judgments stress well‑supported argumentation, precedent, and principled application—rather than algorithmic precision.",
+        },
+      ],
+    };
+  },
+};
+</script>
+
+<style scoped>
+.table {
+  table-layout: fixed;
+}
+
+section > p {
+  font-size: 1.05rem;
+  color: #374151; /* darker gray (#374151 = tailwind gray‑700) */
+  opacity: 1;
+}
+
+.table th,
+.table td {
+  font-size: 1.05rem;
+  vertical-align: top;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  padding: 0.75rem 1rem;
+}
+</style>
