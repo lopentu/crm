@@ -48,7 +48,7 @@ onUnmounted(() => {
               Cultural Reasoning Model
             </h1>
             <p class="lead text-white px-5 mt-3" :style="{ whiteSpace: 'nowrap', fontWeight: '500' }">
-              A novel framework that integrates the inferential strengths of large-scale reasoning models with the contextual sensitivity of cultural logic.            </p>
+              A novel framework that integrates the inferential strengths of large-scale reasoning models with the contextual sensitivity of cultural logic. </p>
           </div>
         </div>
       </div>
