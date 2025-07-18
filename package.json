@@ -1,9 +1,16 @@
 {
   "name": "vue-material-kit-2",
   "version": "2.0.0",
+
+  "homepage": "https://lopentu.github.io/crm/",
+
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+
     "preview": "vite preview --port 4173",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
   },
@@ -25,6 +32,7 @@
     "@vue/eslint-config-prettier": "7.0.0",
     "eslint": "^8.19.0",
     "eslint-plugin-vue": "9.0.0",
+    "gh-pages": "^6.3.0",
     "prettier": "2.5.1",
     "sass": "1.52.3",
     "sass-loader": "13.0.0",

@@ -1,7 +1,7 @@
 <script setup>
 // example component
 import DefaultCounterCard from "../../../examples/cards/counterCards/DefaultCounterCard.vue";
-import ilo from "@/assets/img/aboutUsLogo/ILO.png";
+import iol from "@/assets/img/aboutUsLogo/ILO.png";
 </script>
 <template>
   <section class="pt-4 pb-6" id="count-stats">
@@ -15,7 +15,7 @@ import ilo from "@/assets/img/aboutUsLogo/ILO.png";
           class="d-block"
         >
           <img
-            :src="ilo"
+            :src="iol"
             class="w-100 opacity-100"
             alt="International Linguistics Olympiad 2025 logo"
           />
