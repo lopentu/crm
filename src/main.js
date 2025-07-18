@@ -7,7 +7,8 @@ import router from "./router";
 import "./assets/css/nucleo-icons.css";
 import "./assets/css/nucleo-svg.css";
 
-import "./assets/js/core/bootstrap.min.js";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap";
 
 import materialKit from "./material-kit";
 
