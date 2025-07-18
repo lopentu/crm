@@ -8,6 +8,8 @@ import ivana from "@/assets/img/ivana-squares.jpg";
 import marquez from "@/assets/img/ivana-square.jpg";
 import justin from "@/assets/img/teamPhoto/Justin.jpg";
 import una from "@/assets/img/teamPhoto/Una.png";
+import jenny from "@/assets/img/teamPhoto/Jenny.png";
+import peter from "@/assets/img/teamPhoto/Peter.png"; 
 </script>
 
 <template>
@@ -40,21 +42,19 @@ import una from "@/assets/img/teamPhoto/Una.png";
         <div class="col-lg-2 col-6">
           <HorizontalTeamCard
             class="mt-lg-4 mt-5"
-            :image="william"
-            :profile="{ name: 'William Pearce', link: 'javascript:;' }"
-            :position="{ label: 'Boss', color: 'success' }"
-            description="Artist is a term applied to a person who engages in an
-                    activity deemed to be an art."
+            :image="peter"
+            :profile="{ name: 'Peter Chen', link: 'javascript:;' }"
+            :position="{ label: '研究助理', color: 'success' }"
+            description="國立臺灣大學"
           />
         </div>
         <div class="col-lg-2 col-6">
           <HorizontalTeamCard
             class="mt-lg-4 mt-5"
-            :image="william"
-            :profile="{ name: 'William Pearce', link: 'javascript:;' }"
-            :position="{ label: 'Boss', color: 'success' }"
-            description="Artist is a term applied to a person who engages in an
-                    activity deemed to be an art."
+            :image="jenny"
+            :profile="{ name: 'Jenny Lin', link: 'javascript:;' }"
+            :position="{ label: '研究助理', color: 'success' }"
+            description="國立臺灣大學"
           />
         </div>
         <div class="col-lg-2 col-6">
