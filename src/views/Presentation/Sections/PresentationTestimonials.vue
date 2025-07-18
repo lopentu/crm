@@ -5,9 +5,9 @@
   <section class="py-7">
     <div class="container">
       <div class="row">
-        <div class="col-12 col-lg-10 col-xl-8">
+        <div class="col-12 col-lg-10 col-xl-8 mx-auto text-center">
           <h2 class="mb-0">Designed by</h2>
-          <h2 class="text-gradient text-info mb-4 text-start">
+          <h2 class="text-gradient text-info mb-4 text-center">
             <a
               href="https://lope.linguistics.ntu.edu.tw/"
               target="_blank"
