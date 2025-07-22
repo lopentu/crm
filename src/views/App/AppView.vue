@@ -25,7 +25,7 @@ onMounted(() => {
       backSpeed: 90,
       backDelay: 200,
       startDelay: 500,
-      loop: true,
+      loop: true
     });
   }
 });
@@ -45,35 +45,45 @@ onUnmounted(() => {
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-8 text-center mx-auto my-auto">
-            <h1 class="text-white">Architecture</h1>
-            <p class="lead mb-4 text-white opacity-8">
-              The architecture of this project is...
-            </p>
+            <h1 class="text-white">2025 IOL App</h1>
+            <p class="lead mb-4 text-white opacity-8"></p>
           </div>
         </div>
       </div>
     </div>
   </header>
   <div class="card card-body shadow-xl mx-3 mx-md-4 mt-n6">
-    <h2 class="text-center my-3">Architecture Employed</h2>
+    <h2 class="text-center my-3">Dowloads</h2>
+    <h3 class="text-center my-3">For iOS users</h3>
     <p class="text-center mb-4 mx-3">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-      est laborum.
+      You can download the app directly using the link below, or simply search
+      "2025 IOL" on App Store:
+      <a href="https://apps.apple.com/us/app/2025-iol/id6748054270"
+        >https://apps.apple.com/us/app/2025-iol/id6748054270</a
+      >
     </p>
+    <h3 class="text-center my-3">For Android users</h3>
     <p class="text-center mb-4 mx-3">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-      est laborum.
+      Please join the Google Group before downloading the app. Click
+      <b>“Join group”</b> at
+      <a href="https://groups.google.com/g/2025-iol"
+        >https://groups.google.com/g/2025-iol</a
+      >
+      <br />
+      Once you’ve become a group member, you can download the app
+      <a
+        href="https://play.google.com/store/apps/details?id=com.william12995.iol2025"
+        >here</a
+      >.
+    </p>
+    <h3 class="text-center my-3">For Web users</h3>
+    <p class="text-center mb-4 mx-3">
+      You can access the web version (chatbot feature only) here:
+      <a href="https://lopen.linguistics.ntu.edu.tw/iol2025/"
+        >https://lopen.linguistics.ntu.edu.tw/iol2025/</a
+      >
     </p>
   </div>
+
   <DefaultFooter />
 </template>

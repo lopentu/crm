@@ -142,16 +142,24 @@ watch(
             <RouterLink
               class="nav-link ps-2 d-flex cursor-pointer align-items-center"
               :class="getTextColor()"
-              :to="{ name: 'architecture' }">
-              Architecture
+              :to="{ name: 'findings' }">
+              Research Findings
             </RouterLink>
           </li>
           <li class="nav-item mx-2">
             <RouterLink
               class="nav-link ps-2 d-flex cursor-pointer align-items-center"
               :class="getTextColor()"
-              :to="{ name: 'benchmarks' }">
-              Benchmarks
+              :to="{ name: 'paper' }">
+              Our Paper
+            </RouterLink>
+          </li>
+          <li class="nav-item mx-2">
+            <RouterLink
+              class="nav-link ps-2 d-flex cursor-pointer align-items-center"
+              :class="getTextColor()"
+              :to="{ name: 'app' }">
+              App
             </RouterLink>
           </li>
           <li class="nav-item mx-2">

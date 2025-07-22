@@ -2,8 +2,10 @@ import { createRouter, createWebHistory } from "vue-router";
 import PresentationView from "../views/Presentation/PresentationView.vue";
 import AboutView from "../views/AboutUs/AboutView.vue";
 import Overview from "../views/Overview/OverviewView.vue";
-import Architecture from "../views/Architecture/ArchitectureView.vue";
+import Findings from "../views/Findings/FindingsView.vue";
 import Benchmarks from "../views/Benchmarks/BenchmarksView.vue";
+import App from "../views/App/AppView.vue";
+import Paper from "../views/Paper/PaperView.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -12,6 +14,16 @@ const router = createRouter({
       path: "/",
       name: "presentation",
       component: PresentationView
+    },
+    {
+      path: "/paper",
+      name: "paper",
+      component: Paper
+    },
+    {
+      path: "/app",
+      name: "app",
+      component: App
     },
     {
       path: "/about-us",
@@ -24,9 +36,9 @@ const router = createRouter({
       component: Overview
     },
     {
-      path: "/architecture",
-      name: "architecture",
-      component: Architecture
+      path: "/findings",
+      name: "findings",
+      component: Findings
     },
     {
       path: "/benchmarks",
