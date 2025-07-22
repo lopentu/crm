@@ -156,11 +156,9 @@ onUnmounted(() => {
         </tbody>
       </table>
     </section>
-    <h2 id="our-app" class="text-center mb-5 fw-bold">Download the App</h2>
   </div>
   <div class="card card-body blur shadow-blur mx-3 mx-md-4 mt-n6 mb-8">
-    <h2 id="our-app" class="text-center my-5 fw-bold">App</h2>
-    <h3 class="text-center mb-5 fw-bold">Download the App</h3>
+    <h2 id="our-app" class="text-center my-5 fw-bold">Download the App</h2>
     <div class="w-70 text-center items-center row mx-auto">
       <h5 class="text-center mb-3">For iOS users</h5>
       <p class="text-justify lead mb-4">
@@ -175,12 +173,13 @@ onUnmounted(() => {
         Please join the Google Group before downloading the app. Click
         <b>“Join group”</b> or <b>“Joining the group”</b> at
         <a href="https://groups.google.com/g/2025-iol">
-          https://groups.google.com/g/2025-iol
-        </a>.
+          https://groups.google.com/g/2025-iol </a
+        >.
       </p>
       <p class="text-justify lead text-secondary mb-4">
         Once you’ve become a group member, you can download the app
-        <a href="https://play.google.com/store/apps/details?id=com.william12995.iol2025">
+        <a
+          href="https://play.google.com/store/apps/details?id=com.william12995.iol2025">
           <b>here</b>
         </a>
       </p>
