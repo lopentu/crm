@@ -83,9 +83,8 @@ onUnmounted(() => {
               Cultural Reasoning Model
             </h1>
             <p
-              class="lead text-white px-5 mt-3"
+              class="lead text-white px-5 mt-3 w-90 text-center mx-auto"
               :style="{
-                whiteSpace: 'nowrap',
                 fontWeight: '500',
                 textShadow: '0 0 10px rgba(20, 20, 20, 0.5)'
               }">
@@ -99,7 +98,7 @@ onUnmounted(() => {
     </div>
   </Header>
 
-  <div class="card card-body blur shadow-blur mx-3 mx-md-4 mt-n6">
+  <div class="card card-body blur shadow-blur mx-3 mx-md-4 mt-n6 mb-8">
     <div class="container">
       <div class="row"></div>
     </div>
@@ -126,7 +125,10 @@ onUnmounted(() => {
         </p>
       </div>
     </div>
-    <h2 id="overview" class="text-center mb-5">Overview</h2>
+  </div>
+
+  <div class="card card-body blur shadow-blur mx-3 mx-md-4 mt-n6 mb-8">
+    <h2 id="overview" class="text-center my-5">Overview</h2>
     <h3 class="text-center mb-5 fw-bold" style="font">
       Shared Core Characteristics of IOL and Legal Reasoning Models
     </h3>
@@ -154,7 +156,9 @@ onUnmounted(() => {
         </tbody>
       </table>
     </section>
-    <h2 id="our-app" class="text-center mb-5 fw-bold">App</h2>
+  </div>
+  <div class="card card-body blur shadow-blur mx-3 mx-md-4 mt-n6 mb-8">
+    <h2 id="our-app" class="text-center my-5 fw-bold">App</h2>
     <h3 class="text-center mb-5 fw-bold">Download the App</h3>
     <div class="w-70 text-center items-center row mx-auto">
       <h5 class="text-center mb-3">For iOS users</h5>
@@ -180,7 +184,7 @@ onUnmounted(() => {
         >.
       </p>
       <h5 class="text-center my-3">For Web users</h5>
-      <p class="text-justify lead mb-4">
+      <p class="text-justify lead mb-5">
         You can access the web version (chatbot feature only) here:
         <a href="https://lopen.linguistics.ntu.edu.tw/iol2025/"
           >https://lopen.linguistics.ntu.edu.tw/iol2025/</a

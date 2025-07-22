@@ -46,7 +46,7 @@ const router = createRouter({
       component: Benchmarks
     }
   ],
-  scrollBehavior(to, from, savedPosition) {
+  scrollBehavior(to) {
     if (to.hash) {
       const element = document.querySelector(to.hash);
       if (element) {
