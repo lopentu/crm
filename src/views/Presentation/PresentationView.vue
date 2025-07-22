@@ -154,7 +154,7 @@ onUnmounted(() => {
         </tbody>
       </table>
     </section>
-    <h2 id="app" class="text-center mb-5 fw-bold">App</h2>
+    <h2 id="our-app" class="text-center mb-5 fw-bold">App</h2>
     <h3 class="text-center mb-5 fw-bold">Download the App</h3>
     <div class="w-70 text-center items-center row mx-auto">
       <h5 class="text-center mb-3">For iOS users</h5>

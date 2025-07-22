@@ -45,7 +45,18 @@ const router = createRouter({
       name: "benchmarks",
       component: Benchmarks
     }
-  ]
+  ],
+  scrollBehavior(to, from, savedPosition) {
+    // if we’re navigating to a hash, scroll to it smoothly
+    if (to.hash) {
+      return {
+        el: to.hash,
+        behavior: "smooth"
+      };
+    }
+    // otherwise scroll to top
+    return { top: 0 };
+  }
 });
 
 export default router;
