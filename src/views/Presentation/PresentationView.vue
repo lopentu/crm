@@ -41,12 +41,17 @@ onUnmounted(() => {
           <div
             class="text-center mx-auto position-relative justify-content-center">
             <h1
-              class="text-white pt-3 mt-n5 me-2"
+              class="text-white pt-3 mt-n5 me-2 font-"
               :style="{ display: 'inline-block ' }">
               Cultural Reasoning Model
             </h1>
-            <p class="lead text-white px-5 mt-3" :style="{ whiteSpace: 'nowrap', fontWeight: '500' }">
-              A novel framework that integrates the inferential strengths of large-scale reasoning models with the contextual sensitivity of cultural logic. </p>
+            <p
+              class="lead text-white px-5 mt-3"
+              :style="{ whiteSpace: 'nowrap', fontWeight: '500' }">
+              A novel framework that integrates the inferential strengths of
+              large-scale reasoning models with the contextual sensitivity of
+              cultural logic.
+            </p>
           </div>
         </div>
       </div>
@@ -58,6 +63,6 @@ onUnmounted(() => {
       <div class="row"></div>
     </div>
     <PresentationTestimonials />
-    </div>
+  </div>
   <DefaultFooter />
 </template>
