@@ -10,7 +10,7 @@ import Header from "../../examples/Header.vue";
 import PresentationTestimonials from "./Sections/PresentationTestimonials.vue";
 
 //images
-import vueMkHeader from "@/assets/img/background.png";
+import vueMkHeader from "@/assets/img/aboutUsLogo/Background.png";
 //hooks
 const body = document.getElementsByTagName("body")[0];
 onMounted(() => {
@@ -33,9 +33,10 @@ onUnmounted(() => {
   </div>
   <Header>
     <div
-      class="page-header min-vh-75"
-      :style="`background-image: url(${vueMkHeader})`"
-      loading="lazy">
+    class="page-header min-vh-75 bg-cover bg-center"
+    :style="`background-image: url(${vueMkHeader})`"
+    loading="lazy"
+    >
       <div class="container">
         <div class="row">
           <div
@@ -66,3 +67,7 @@ onUnmounted(() => {
   </div>
   <DefaultFooter />
 </template>
+<style>
+.bg-cover  { background-size: cover !important; }
+.bg-center { background-position: center center !important; }
+</style>
