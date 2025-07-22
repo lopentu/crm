@@ -62,7 +62,7 @@ onUnmounted(() => {
     <section
       v-for="block in blocks"
       :key="block.title"
-      class="mb-5 mx-auto w-80">
+      class="mb-5 mx-auto w-70">
       <h4 class="fw-bold">{{ block.title }}</h4>
       <p class="mb-3" v-html="block.summary" />
 
