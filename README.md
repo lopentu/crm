@@ -1,6 +1,6 @@
-# IOL Reasoning Model Website
+# Cultural Reasoning Model Website
 
-This is a website for 2025 IOL AI Reasoning Model.
+This is a website for 2025 Cultural AI Reasoning Model.
 
 ## Deploy
 
