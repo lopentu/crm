@@ -7,9 +7,6 @@ import DefaultFooter from "../../examples/footers/FooterDefault.vue";
 import Header from "../../examples/Header.vue";
 import { ref } from "vue";
 
-// sections
-import PresentationTestimonials from "./Sections/PresentationTestimonials.vue";
-
 //images
 import vueMkHeader from "@/assets/img/aboutUsLogo/Background.png";
 //hooks
@@ -106,9 +103,31 @@ onUnmounted(() => {
     <div class="container">
       <div class="row"></div>
     </div>
-    <PresentationTestimonials />
+    <div class="row items-center">
+      <div class="mx-auto w-70 text-center text-justify my-5">
+        <p class="lead text-secondary lh-base text-justify m-0">
+          Unlike traditional formal logic systems, Cultural Reasoning Model
+          (CRM) is designed to handle
+          <strong>complex, multi‑step reasoning tasks</strong>
+          embedded in socio‑cultural contexts—such as those found in legal
+          interpretation and linguistic pattern discovery (e.g., International
+          Linguistics Olympiad (IOL) problems). It captures the non‑monotonic,
+          defeasible and interpretive nature of human reasoning by aligning
+          semantic inference with normative structures and cultural knowledge.
+          CRM emphasizes not only logical validity but also interpretive
+          plausibility, coherence, and cross‑cultural appropriateness. This
+          makes it particularly suitable for applications where reasoning must
+          reflect both internal structural rules (e.g., grammatical or legal
+          systems) and external contextual norms (e.g., social conventions,
+          legal precedent, pragmatic intent). As such, CRM provides a unified
+          foundation for modeling reasoning tasks that require both symbolic
+          abstraction and cultural alignment—bridging the gap between language,
+          law, and human cognition.
+        </p>
+      </div>
+    </div>
     <h2 id="overview" class="text-center mb-5">Overview</h2>
-    <h3 class="text-center mb-5 fw-bold">
+    <h3 class="text-center mb-5 fw-bold" style="font">
       Shared Core Characteristics of IOL and Legal Reasoning Models
     </h3>
     <section
@@ -135,6 +154,39 @@ onUnmounted(() => {
         </tbody>
       </table>
     </section>
+    <h2 id="app" class="text-center mb-5 fw-bold">App</h2>
+    <h3 class="text-center mb-5 fw-bold">Download the App</h3>
+    <div class="w-70 text-center items-center row mx-auto">
+      <h5 class="text-center mb-3">For iOS users</h5>
+      <p class="text-justify lead mb-4">
+        You can download the app directly using the link below, or simply search
+        "2025 IOL" on App Store:
+        <a href="https://apps.apple.com/us/app/2025-iol/id6748054270"
+          >https://apps.apple.com/us/app/2025-iol/id6748054270</a
+        >
+      </p>
+      <h5 class="text-center my-3">For Android users</h5>
+      <p class="text-justify lead text-secondary mb-4">
+        Please join the Google Group before downloading the app. Click
+        <b>“Join group”</b> or <b>"Joining the group"</b>at
+        <a href="https://groups.google.com/g/2025-iol"
+          >https://groups.google.com/g/2025-iol</a
+        >
+        <br />
+        Once you’ve become a group member, you can download the app
+        <a
+          href="https://play.google.com/store/apps/details?id=com.william12995.iol2025"
+          >here</a
+        >.
+      </p>
+      <h5 class="text-center my-3">For Web users</h5>
+      <p class="text-justify lead mb-4">
+        You can access the web version (chatbot feature only) here:
+        <a href="https://lopen.linguistics.ntu.edu.tw/iol2025/"
+          >https://lopen.linguistics.ntu.edu.tw/iol2025/</a
+        >
+      </p>
+    </div>
   </div>
   <DefaultFooter />
 </template>

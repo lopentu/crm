@@ -2,10 +2,10 @@
 //import DefaultReviewCard from "@/examples/cards/reviewCards/DefaultReviewCard.vue";
 </script>
 <template>
-  <section class="py-7">
+  <section class="py-5">
     <div class="container">
       <div class="row items-center">
-        <div class="mx-auto w-70 text-center text-justify">
+        <div class="mx-auto w-80 text-center text-justify">
           <p class="lead text-secondary lh-base text-justify m-0">
             Unlike traditional formal logic systems, Cultural Reasoning Model
             (CRM) is designed to handle
