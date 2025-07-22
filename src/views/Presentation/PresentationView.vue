@@ -156,6 +156,7 @@ onUnmounted(() => {
         </tbody>
       </table>
     </section>
+    <h2 id="our-app" class="text-center mb-5 fw-bold">Download the App</h2>
   </div>
   <div class="card card-body blur shadow-blur mx-3 mx-md-4 mt-n6 mb-8">
     <h2 id="our-app" class="text-center my-5 fw-bold">App</h2>
@@ -164,24 +165,24 @@ onUnmounted(() => {
       <h5 class="text-center mb-3">For iOS users</h5>
       <p class="text-justify lead mb-4">
         You can download the app directly using the link below, or simply search
-        "2025 IOL" on App Store:
+        <b>“2025 IOL”</b> on App Store:
         <a href="https://apps.apple.com/us/app/2025-iol/id6748054270"
           >https://apps.apple.com/us/app/2025-iol/id6748054270</a
         >
       </p>
       <h5 class="text-center my-3">For Android users</h5>
-      <p class="text-justify lead text-secondary mb-4">
+      <p class="text-justify lead text-secondary mb-2">
         Please join the Google Group before downloading the app. Click
-        <b>“Join group”</b> or <b>"Joining the group"</b>at
-        <a href="https://groups.google.com/g/2025-iol"
-          >https://groups.google.com/g/2025-iol</a
-        >
-        <br />
+        <b>“Join group”</b> or <b>“Joining the group”</b> at
+        <a href="https://groups.google.com/g/2025-iol">
+          https://groups.google.com/g/2025-iol
+        </a>.
+      </p>
+      <p class="text-justify lead text-secondary mb-4">
         Once you’ve become a group member, you can download the app
-        <a
-          href="https://play.google.com/store/apps/details?id=com.william12995.iol2025"
-          >here</a
-        >.
+        <a href="https://play.google.com/store/apps/details?id=com.william12995.iol2025">
+          <b>here</b>
+        </a>
       </p>
       <h5 class="text-center my-3">For Web users</h5>
       <p class="text-justify lead mb-5">
