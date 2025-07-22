@@ -5,11 +5,11 @@ defineProps({
     type: Object,
     name: String,
     logo: String,
-    route: "",
+    route: String,
     default: () => ({
-      name: "IOL Reasoning Model",
+      name: "Cultural Reasoning Model",
       logo: logoDark,
-      route: "/"
+      route: 'https://lope.linguistics.ntu.edu.tw/',
     })
   },
   socials: {
@@ -34,12 +34,16 @@ defineProps({
   <footer class="footer pt-5 mt-5 text-center">
     <div class="container">
       <div class="row">
-        <div>
-          <a :href="brand.route"> </a>
-          <h6 class="font-weight-bolder mb-4 text-center">
+        <a
+          :href="brand.route"
+          target="_blank"
+          rel="noopener"
+          class="d-inline-flex flex-column align-items-center mb-4 text-decoration-none"
+        >
+          <h6 class="font-weight-bolder mb-0 text-center">
             {{ brand.name }}
           </h6>
-        </div>
+        </a>
 
         <div class="text-center">
           <p class="text-dark my-4 text-sm font-weight-normal">
