@@ -45,7 +45,22 @@ const router = createRouter({
       name: "benchmarks",
       component: Benchmarks
     }
-  ]
+  ],
+  scrollBehavior(to) {
+    if (to.hash) {
+      const element = document.querySelector(to.hash);
+      if (element) {
+        const top = element.getBoundingClientRect().top + window.scrollY - 114;
+        window.scrollTo({
+          top,
+          behavior: "smooth"
+        });
+      }
+      return false; // prevents Vue Router from doing additional scrolling
+    }
+    // otherwise scroll to top
+    return { top: 0 };
+  }
 });
 
 export default router;
