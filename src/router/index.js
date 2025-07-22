@@ -47,12 +47,16 @@ const router = createRouter({
     }
   ],
   scrollBehavior(to, from, savedPosition) {
-    // if we’re navigating to a hash, scroll to it smoothly
     if (to.hash) {
-      return {
-        el: to.hash,
-        behavior: "smooth"
-      };
+      const element = document.querySelector(to.hash);
+      if (element) {
+        const top = element.getBoundingClientRect().top + window.scrollY - 114;
+        window.scrollTo({
+          top,
+          behavior: "smooth"
+        });
+      }
+      return false; // prevents Vue Router from doing additional scrolling
     }
     // otherwise scroll to top
     return { top: 0 };
