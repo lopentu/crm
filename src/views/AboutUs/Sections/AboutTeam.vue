@@ -10,6 +10,7 @@ import justin from "@/assets/img/teamPhoto/Justin.jpg";
 import una from "@/assets/img/teamPhoto/Una.png";
 import jenny from "@/assets/img/teamPhoto/Jenny.png";
 import peter from "@/assets/img/teamPhoto/Peter.png"; 
+import richard from "@/assets/img/teamPhoto/richard.jpg";
 </script>
 
 <template>
@@ -33,10 +34,10 @@ import peter from "@/assets/img/teamPhoto/Peter.png";
         <div class="col-lg-2 col-6">
           <HorizontalTeamCard
             class="mt-4"
-            :image="william"
-            :profile="{ name: 'CCC', link: 'javacript:;' }"
-            :position="{ label: 'CCC', color: 'success' }"
-            description="等待中"
+            :image="richard"
+            :profile="{ name: 'Richard Lian', link: 'https://github.com/dachenlian' }"
+            :position="{ label: '博士生', color: 'success' }"
+            description="國立臺灣大學"
           />
         </div>
         <div class="col-lg-2 col-6">
