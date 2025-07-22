@@ -8,7 +8,7 @@ import Header from "../../examples/Header.vue";
 import { ref } from "vue";
 
 //images
-import vueMkHeader from "@/assets/img/aboutUsLogo/Background.png";
+import vueMkHeader from "@/assets/img/aboutUsLogo/CRM.png";
 //hooks
 const body = document.getElementsByTagName("body")[0];
 
