@@ -158,35 +158,46 @@ onUnmounted(() => {
     </section>
   </div>
   <div class="card card-body blur shadow-blur mx-3 mx-md-4 mt-n6 mb-8">
-    <h2 id="our-app" class="text-center my-5 fw-bold">Download the App</h2>
+    <h2 id="findings" class="text-center my-5">Research Findings</h2>
+  </div>
+  <div
+    class="card card-body blur bg-gradient-dark shadow-blur mx-3 mx-md-4 mt-n6 mb-8">
+    <h2 id="our-app" class="text-center text-white my-5 fw-bold">
+      Download the App
+    </h2>
     <div class="w-70 text-center items-center row mx-auto">
-      <h5 class="text-center mb-3">For iOS users</h5>
-      <p class="text-justify lead mb-4">
+      <h5 class="text-center mb-3 text-white">For iOS users</h5>
+      <p class="text-justify lead text-white mb-4">
         You can download the app directly using the link below, or simply search
         <b>“2025 IOL”</b> on App Store:
-        <a href="https://apps.apple.com/us/app/2025-iol/id6748054270"
+        <a
+          class="text-light"
+          href="https://apps.apple.com/us/app/2025-iol/id6748054270"
           >https://apps.apple.com/us/app/2025-iol/id6748054270</a
         >
       </p>
-      <h5 class="text-center my-3">For Android users</h5>
-      <p class="text-justify lead text-secondary mb-2">
+      <h5 class="text-center my-3 text-white">For Android users</h5>
+      <p class="text-justify lead text-secondary mb-2 text-white">
         Please join the Google Group before downloading the app. Click
         <b>“Join group”</b> or <b>“Joining the group”</b> at
-        <a href="https://groups.google.com/g/2025-iol">
+        <a class="text-light" href="https://groups.google.com/g/2025-iol">
           https://groups.google.com/g/2025-iol </a
         >.
       </p>
-      <p class="text-justify lead text-secondary mb-4">
+      <p class="text-justify lead text-secondary mb-4 text-white">
         Once you’ve become a group member, you can download the app
         <a
+          class="text-light"
           href="https://play.google.com/store/apps/details?id=com.william12995.iol2025">
           <b>here</b>
         </a>
       </p>
-      <h5 class="text-center my-3">For Web users</h5>
-      <p class="text-justify lead mb-5">
+      <h5 class="text-white text-center my-3">For Web users</h5>
+      <p class="text-white text-justify lead mb-5">
         You can access the web version (chatbot feature only) here:
-        <a href="https://lopen.linguistics.ntu.edu.tw/iol2025/"
+        <a
+          class="text-light"
+          href="https://lopen.linguistics.ntu.edu.tw/iol2025/"
           >https://lopen.linguistics.ntu.edu.tw/iol2025/</a
         >
       </p>

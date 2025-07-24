@@ -142,7 +142,7 @@ watch(
             <RouterLink
               class="nav-link ps-2 d-flex cursor-pointer align-items-center"
               :class="getTextColor()"
-              :to="{ name: 'findings' }">
+              :to="{ name: 'presentation', hash: '#findings' }">
               Research Findings
             </RouterLink>
           </li>
