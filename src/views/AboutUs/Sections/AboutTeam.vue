@@ -5,7 +5,7 @@ import HorizontalTeamCard from "@/examples/cards/teamCards/HorizontalTeamCard.vu
 // images
 import ivana from "@/assets/img/ivana-squares.jpg";
 import marquez from "@/assets/img/ivana-square.jpg";
-import justin from "@/assets/img/teamPhoto/Justin.jpg";
+import justin from "@/assets/img/teamPhoto/Justin.png";
 import una from "@/assets/img/teamPhoto/Una.png";
 import jenny from "@/assets/img/teamPhoto/Jenny.png";
 import peter from "@/assets/img/teamPhoto/Peter.png";
