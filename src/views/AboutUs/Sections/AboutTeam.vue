@@ -3,14 +3,16 @@
 import HorizontalTeamCard from "@/examples/cards/teamCards/HorizontalTeamCard.vue";
 
 // images
-import william from "@/assets/img/bruce-mars.jpg";
 import ivana from "@/assets/img/ivana-squares.jpg";
 import marquez from "@/assets/img/ivana-square.jpg";
 import justin from "@/assets/img/teamPhoto/Justin.jpg";
 import una from "@/assets/img/teamPhoto/Una.png";
 import jenny from "@/assets/img/teamPhoto/Jenny.png";
-import peter from "@/assets/img/teamPhoto/Peter.png"; 
-import richard from "@/assets/img/teamPhoto/richard.jpg";
+import peter from "@/assets/img/teamPhoto/Peter.png";
+import richard from "@/assets/img/teamPhoto/Richard.png";
+import riSheng from "@/assets/img/teamPhoto/Ri-Sheng.jpg";
+import bruce from "@/assets/img/teamPhoto/Bruce.png";
+
 </script>
 
 <template>
@@ -61,21 +63,19 @@ import richard from "@/assets/img/teamPhoto/richard.jpg";
         <div class="col-lg-2 col-6">
           <HorizontalTeamCard
             class="mt-lg-4 mt-5"
-            :image="william"
-            :profile="{ name: 'William Pearce', link: 'javascript:;' }"
-            :position="{ label: 'Boss', color: 'success' }"
-            description="Artist is a term applied to a person who engages in an
-                    activity deemed to be an art."
+            :image="riSheng"
+            :profile="{ name: 'Ri-Sheng Huang', link: 'https://github.com/rszia' }"
+            :position="{ label: '碩士生', color: 'success' }"
+            description="國立臺灣大學"
           />
         </div>
         <div class="col-lg-2 col-6">
           <HorizontalTeamCard
             class="mt-lg-4 mt-5"
-            :image="william"
-            :profile="{ name: 'William Pearce', link: 'javascript:;' }"
-            :position="{ label: 'Boss', color: 'success' }"
-            description="Artist is a term applied to a person who engages in an
-                    activity deemed to be an art."
+            :image="bruce"
+            :profile="{ name: 'Guan-Yu Tseng', link: 'https://github.com/bbrruu' }"
+            :position="{ label: '碩士生', color: 'success' }"
+            description="國立臺灣大學"
           />
         </div>
       </div>
@@ -84,10 +84,9 @@ import richard from "@/assets/img/teamPhoto/richard.jpg";
           <HorizontalTeamCard
             class="mt-4 z-index-2"
             :image="ivana"
-            :profile="{ name: 'Ivana Flow', link: 'javascript:;' }"
-            :position="{ label: 'Athlete', color: 'success' }"
-            description="Artist is a term applied to a person who engages in an
-                    activity deemed to be an art."
+            :profile="{ name: 'You-Kuan Lin', link: 'https://github.com/Eskartur' }"
+            :position="{ label: '電機系學士班', color: 'success' }"
+            description="國立臺灣大學."
           />
         </div>
         <div class="col-lg-2 col-6">
