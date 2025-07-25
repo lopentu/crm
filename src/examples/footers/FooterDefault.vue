@@ -49,7 +49,7 @@ defineProps({
           <p class="text-dark my-4 text-sm font-weight-normal">
             All rights reserved. Copyright ©
             {{ new Date().getFullYear() }}
-            LOPE Lab | Website Template by
+            LOPE | Website Template by
             <a href="https://www.creative-tim.com" target="_blank"
               >Creative Tim</a
             >.

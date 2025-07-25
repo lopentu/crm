@@ -883,8 +883,8 @@ d_13_explanation: The sentence is NP-initial, which results in lower auditory ac
       </div>
     </div>
   </div>
+  <DefaultFooter />
 </template>
-<DefaultFooter />
 
 <style scoped>
 /* Accordion text blocks */
