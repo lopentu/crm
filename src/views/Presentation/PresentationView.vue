@@ -160,593 +160,481 @@ onUnmounted(() => {
     </section>
   </div>
   <div class="card card-body blur shadow-blur mx-3 mx-md-4 mt-n6 mb-8">
-    <h2 id="findings" class="text-center my-5">Research Findings</h2>
+  <h2 id="findings" class="text-center my-5 display-5 fw-bold">Research Findings</h2>
 
-    <!-- ===== AI Answers (IOL Experiments) ===== -->
-    <section id="ai-answers" class="mb-5">
-      <h3 class="fw-bold text-center mb-4">AI Answers from IOL Experiments</h3>
-      <p
-        class="text-center text-muted mb-5"
-        style="max-width: 70ch; margin: 0 auto">
-        Below are the exact AI outputs (Answer + Explanation) for each 2025 IOL
-        problem. Click to expand.
-      </p>
-
-      <div class="accordion" id="iolAccordion">
-        <!-- Problem 2025-1 -->
-        <div class="accordion-item mb-3">
-          <h2 class="accordion-header" id="p2025-1-head">
-            <button
-              class="accordion-button collapsed"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#p2025-1-body"
-              aria-expanded="false"
-              aria-controls="p2025-1-body">
-              Problem 2025‑1 · Dzongkha Number Systems
-            </button>
-          </h2>
-          <div
-            id="p2025-1-body"
-            class="accordion-collapse collapse"
-            aria-labelledby="p2025-1-head"
-            data-bs-parent="#iolAccordion">
-            <div class="accordion-body">
-              <h6 class="text-info fw-bold">Answer</h6>
-              <pre
-                class="bg-light p-3 rounded small"
-                style="white-space: pre-wrap">
-  a_X: sum a_Y: ke sum da ɲi a_Z: ɲiɕu ɲi da ke ʑi da ŋa
-  b_1: 13 + 70 = 83
-  b_2: 800 = 20 × 40
-  b_3: 469 = (50 × 9) + 19
-  b_4: 600 + 110 = 500 + 210
-  b_5: (2 × 0.25) + 0.5 = 1
-  b_6: (1100 × 0.5) + 50 = 600
-  b_7: 736 = (84 × 4) + 400
-  b_8: 2 × 609 = (3 × 400) + 18
-  b_9: 62 + 24 = 86
-  b_10: 885 + 115 = 1000
-  c_75_system_A: ke ko-da ʑi
-  c_75_system_B: dønŋa
-  c_570_system_A: ɲiɕu ci da ke ge da cutãm
-  c_570_system_B: ŋapɟa døn
-              </pre>
-
-              <h6 class="mt-4 fw-bold">Explanation</h6>
-              <p class="small" style="white-space: pre-wrap">
-                Dzongkha uses two numbering systems for numbers above 19, built
-                upon a set of basic numerals. 1. Basic Numerals (1–19): The
-                digits 1–9 are: ci(1), ɲi(2), sum(3), ʑi(4), ŋa(5), ɖu(6),
-                dyn(7), ge(8), gu(9). The number 10 is cu or cutãm. Numbers from
-                11–19 are formed by prefixing a variant of cu (10) to a digit,
-                e.g., cuɲi (12 = 10+2), ceŋa (15), cygu (19). 2. System A
-                (Vigesimal/Base‑20): This system is based on powers of 20. The
-                bases are ke (20) and ɲiɕu (400, which is 20²). Numbers are
-                constructed additively in a hierarchical structure: (M₁ × ɲiɕu)
-                da (M₂ × ke) da U, where M₁, M₂, and U are multipliers (1–19),
-                da means "and", and multiplication is shown by juxtaposition
-                (e.g., ke sum = 20 × 3 = 60). A special subtractive form, Base
-                X‑da Y, is used for non‑integer multipliers, calculating as Base
-                × (Y − X). The data reveals pɟe = 0.5 (a half) and ko = 0.25 (a
-                quarter). For example, ke pɟe‑da ʑi calculates to 20 × (4 − 0.5)
-                = 70. This subtractive form is typically used when the number
-                divided by the base results in a multiplier ending in .5 or .75,
-                as it often produces a more concise expression. 3. System B
-                (Decimal‑based): This system is largely decimal. Tens either
-                have unique names (e.g., tsa = 20, døn = 70) or are formed by
-                combining a digit root with ‑cu or ‑pcu (e.g., sumcu = 30, gepcu
-                = 80). Units are appended directly (e.g., dønɖu = 70+6 = 76).
-                Hundreds are formed by suffixing ‑ɟa (100) to a digit root,
-                sometimes with phonetic changes (e.g., sumɟa = 300, ŋapɟa =
-                500). 4. Key Polysemous Terms: • ɟa: This word's value depends
-                on its position. As a suffix (‑ɟa), it means 100. As a prefix
-                (ɟa‑), it means 80 and is used for numbers 81–89 (e.g., ɟagu =
-                80+9 = 89). • ɲiɕu: This word also has two values. In the
-                structure of System A, it represents the base 400. However, when
-                used as a number in an arithmetic context (as on the right side
-                of eq. 2), it means 20. 5. Problem Correction: Equation (5) as
-                written, (ɲi × ko) + pɟe = ɲi, translates to the false statement
-                1 = 2. The right‑hand side is assumed to be a typo for ci (1),
-                making the equation (2 × 0.25) + 0.5 = 1. By applying these
-                rules, all equations can be translated into their numerical
-                equivalents, the unknowns can be solved for and written in the
-                appropriate system, and new numbers can be generated in both
-                systems.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <!-- Problem 2025-2 -->
-        <div class="accordion-item mb-3">
-          <h2 class="accordion-header" id="p2025-2-head">
-            <button
-              class="accordion-button collapsed"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#p2025-2-body"
-              aria-expanded="false"
-              aria-controls="p2025-2-body">
-              Problem 2025‑2 · Gaahmg Possession System
-            </button>
-          </h2>
-          <div
-            id="p2025-2-body"
-            class="accordion-collapse collapse"
-            aria-labelledby="p2025-2-head"
-            data-bs-parent="#iolAccordion">
-            <div class="accordion-body">
-              <h6 class="text-info fw-bold">Answer</h6>
-              <pre
-                class="bg-light p-3 rounded small"
-                style="white-space: pre-wrap">
-  a_1: S  a_2: G  a_3: Q  a_4: F  a_5: R  a_6: N  a_7: D  a_8: C  a_9: K  a_10: I
-  a_11: O a_12: B a_13: L a_14: M a_15: E a_16: P a_17: T a_18: H a_19: J a_20: A
-  b_translation_ɛ̄_tááðà: his shoulder
-  b_translation_ɛ̄_mə̄ə̄ð: his grandmother
-  b_explanation: 'These phrases are unexpected for two main reasons. First, the prefix ɛ̄- is used in the data to mean "your singular" for a specific class of nouns (E-class), but here it appears to mean "his". Second, it attaches to nouns that do not belong to the E-class: tááðà "shoulder" is an A-class noun (taking prefixes like á-), and mə̄ə̄ð "grandmother" is related to an O-class/postposing noun. This usage of ɛ̄- as a "his" marker seems to be a special case that overrides the usual noun class and vowel harmony rules. Furthermore, for "grandmother", it uses a prefixing strategy on the stem mə̄ə̄ð, whereas the singular form in the data, ɖɔ̄ɔ̄r, uses a postposing strategy.'
-  c_21: his ribs
-  c_22: their grandmothers
-  c_23: your (sg.) ribs
-  c_24: his dogs
-  c_25: your (sg.) grindstone
-  d_26: á máàm
-  d_27: ʈɛ́ɛ̀l ə́nə̀g
-  d_28: ɛ̄g îl
-  d_29: āg ābɛ́ɛ́
-  d_30: ɔ́ tùndùlīīg
-              </pre>
-
-              <h6 class="mt-4 fw-bold">Explanation</h6>
-              <p class="small" style="white-space: pre-wrap">
-                Possession in Gaahmg is marked through two primary strategies,
-                which define different noun classes. 1. Prefixing Nouns: Most
-                nouns take a possessive prefix. These are subdivided into three
-                classes based on a vowel harmony system, where the prefix vowel
-                generally matches the noun's class: • A-class (vowel /a/): e.g.,
-                máàm 'grindstone', tááðà 'shoulder'. Prefixes: á-, ā-, āg-. •
-                E-class (vowel /ɛ, i/): e.g., îl 'anchor', ìlə̄ə̄g 'grandfathers'.
-                Prefixes: ɛ̄-, ɛ̄g-. • O-class (vowel /ɔ, u/): e.g., ābɛ́ɛ́ 'uncle',
-                tùndùlīīg 'dogs'. Prefixes: ɔ́-, ɔ̄-, ɔ̄g-. 2. Postposing Nouns: A
-                smaller group of nouns are followed by a separate possessive
-                pronoun. This group includes áðág 'hammer', gùùr 'horn', ɖɔ̄ɔ̄r
-                'grandmother' (sg.), ʈɛ́ɛ̀l 'cheeks', and ʈɛ́ɛ̀lààg 'aunts' (pl.).
-                Noun Number & Irregularity: Plurality of the possessed noun is
-                marked in various ways, including suffixation (gùùr → gùùrììg),
-                suppletion (îl → pɛ̀bàrɛ̄ɛ̄g). Some nouns switch their possessive
-                strategy between singular and plural forms. For example, ɖɔ̄ɔ̄r
-                'grandmother' is postposing in the singular, but its plural
-                mə̄ə̄ðə́ə̄d 'grandmothers' is prefixing. Similarly, fə̄ndə́g 'aunt' is
-                prefixing in the singular, but its suppletive plural ʈɛ́ɛ̀lààg
-                'aunts' is postposing. Possessive Markers & Syncretism: The
-                system features significant syncretism, where one form has
-                multiple meanings, often distinguished by the number
-                (singular/plural) of the possessed noun. • Prefixes: ○ á-: 'my'
-                (with plural noun) OR 'your sg.' (with singular noun). ○ ā- /
-                āg-: 'our' (with singular noun). ○ āg-: 'his' (with plural
-                noun). ○ ɛ̄-: 'your sg.' (for E-class nouns). It also has a
-                special function meaning 'his' that overrides noun class. ○ ɔ́-:
-                'your sg.' (for O-class nouns). ○ ɔ̄-: 'our' OR 'his' (both with
-                plural nouns). ○ ɛ̄g-: 'your pl.' ○ ɔ̄g-: 'your pl.' OR 'their'. •
-                Postposed Pronouns: ○ íìnī, úùn, ínìgī: allomorphs for 'my'
-                (1sg). ○ ə̄yən, ūyùg: allomorphs for 'his' (3sg). ○ ə́nəg: 'their'
-                (3pl).
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <!-- Problem 2025-3 -->
-        <div class="accordion-item mb-3">
-          <h2 class="accordion-header" id="p2025-3-head">
-            <button
-              class="accordion-button collapsed"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#p2025-3-body"
-              aria-expanded="false"
-              aria-controls="p2025-3-body">
-              Problem 2025‑3 · Kuria Verb Morphology
-            </button>
-          </h2>
-          <div
-            id="p2025-3-body"
-            class="accordion-collapse collapse"
-            aria-labelledby="p2025-3-head"
-            data-bs-parent="#iolAccordion">
-            <div class="accordion-body">
-              <h6 class="text-info fw-bold">Answer</h6>
-              <pre
-                class="bg-light p-3 rounded small"
-                style="white-space: pre-wrap">
-  a_20: ahéétóka
-  b_21: They have rubbed (something).
-  b_22: We have ground the seeds.
-  b_23: I bite (something).
-  b_24: Indeed, he has sung (something).
-  c_25: torarya iʧíímbéɣo
-  c_26: mꞵína
-  c_27: ntooꞵiimá iritáárákímúra
-  c_28: torasáámba
-  c_29: aahéétóka
-              </pre>
-
-              <h6 class="mt-4 fw-bold">Explanation</h6>
-              <p class="small" style="white-space: pre-wrap">
-                The structure of a Kuria verb is: (Emphatic Prefix) – Subject
-                Prefix – Tense/Aspect Marker (TAM) – Verb Root – Final Vowel
-                '-a'. 1. Morphemes & Phonology: • Subject Prefixes: n- 'I', a-
-                'he', to- 'we', ꞵa- 'they'. • n- becomes m- before a bilabial
-                consonant (e.g., mꞵína), and combines with the prospective
-                marker -ra- to form nda-. In the present tense with root rom,
-                n-rom-a becomes ndóma. • Tense/Aspect Markers (TAMs): ○ Present:
-                No marker (Ø). ○ Perfect ('has/have V-ed'): A vowel -a- that
-                fuses with the subject prefix vowel, creating a long vowel (naa-
-                from n-a-, aa- from a-a-, too- from to-a-, ꞵaa- from ꞵa-a-). ○
-                Prospective ('about to V'): Marker -ra- is inserted after the
-                subject prefix. • Emphatic Prefix ('Indeed'): A homorganic nasal
-                prefix N- is added to perfect tense forms. For example: N- + aa-
-                (he has) → naa-; N- + too- (we have) → ntoo-; N- + ꞵaa- (they
-                have) → mbaa-. 2. Tonal System: Verb roots are divided into two
-                main classes based on their tonal behavior: L-roots and H-roots.
-                • L-Roots (e.g., ry eat, sy grind, rom bite, ꞵiim measure):
-                These roots generally have low tones. ○ Perfect & Prospective:
-                All syllables have a low tone (e.g., naarya, toraroma,
-                toraꞵiima). ○ Emphatic Perfect: The final vowel -a receives a
-                high tone: -á (e.g., nnaasyá, ntooꞵiimá). ○ Present:
-                Monosyllabic roots take a high tone on the root vowel (e.g.,
-                ndóma). • H-Roots (e.g., ꞵin sing, saamb burn, sukur rub, heetok
-                remember, turuuŋan welcome): ○ Present & Prospective: High tones
-                appear on all vowels of the verb root (e.g., asáámba, ahéétóka,
-                torasáámba). ○ Perfect: The tone pattern depends on the root's
-                length (number of vowels). ■ Short roots (1–2 vowels): A high
-                (-á) or rising (-ǎ) tone appears on the final vowel (e.g.,
-                toosaambá, aaꞵinǎ, ꞵaasukurá). ■ Long roots (3+ vowels): High
-                tones appear on the root vowels themselves (e.g., aahéétóka from
-                heetok). ○ Emphatic Perfect: A high tone is placed on the first
-                vowel of the root (e.g., mbaaꞵúna, naaꞵína).
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <!-- Problem 2025-4 -->
-        <div class="accordion-item mb-3">
-          <h2 class="accordion-header" id="p2025-4-head">
-            <button
-              class="accordion-button collapsed"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#p2025-4-body"
-              aria-expanded="false"
-              aria-controls="p2025-4-body">
-              Problem 2025‑4 · Kewa Compounding & Polysemy
-            </button>
-          </h2>
-          <div
-            id="p2025-4-body"
-            class="accordion-collapse collapse"
-            aria-labelledby="p2025-4-head"
-            data-bs-parent="#iolAccordion">
-            <div class="accordion-body">
-              <h6 class="text-info fw-bold">Answer</h6>
-              <pre
-                class="bg-light p-3 rounded small"
-                style="white-space: pre-wrap">
-  a_15: D  a_16: N  a_17: T  a_18: L  a_19: W  a_20: O  a_21: Y  a_22: H  a_23: I  a_24: G
-  a_25: A  a_26: Q  a_27: C  a_28: V  a_29: P  a_30: K  a_31: U  a_32: F  a_33: M  a_34: E  a_35: J  a_36: X  a_37: S  a_38: R  a_39: B
-
-  b_40:
-  • tree
-  • wood
-  • fire
-
-  b_41:
-  • mouth
-  • tooth
-  • tongue
-  • language
-  • talk
-  • beak
-
-  b_42:
-  • hair
-  • grass
-  • feather
-
-  b_43:
-  • jaw
-  • jawbone
-
-  b_44:
-  • I am not
-
-  b_45:
-  • feather
-
-  b_46:
-  • children
-
-  c_47: balina
-  c_48: uni
-  c_49: repena-aga
-  c_50: boke
-  c_51: ora adaa
-  c_52: aga-ini
-  c_53: pamoagaena ini
-              </pre>
-
-              <h6 class="mt-4 fw-bold">Explanation</h6>
-              <p class="small" style="white-space: pre-wrap">
-                The Kewa language builds complex concepts primarily through
-                compounding and exhibits extensive polysemy, where words have
-                multiple, often metaphorically related, meanings. 1. Compounding
-                and Word Order: Kewa uses a consistent Modifier‑Head word order
-                for compounds. The first element modifies or specifies the
-                second. This is evident in pairs like mena‑ada ('pig‑house' →
-                pig sty) versus ada‑mena ('house‑pig' → domesticated pig).
-                Adjectives and adverbs also precede the words they modify, as in
-                adaa naaki (big boy) and ora adaa poripu ('very big wind' →
-                tempest). 2. Possession: The genitive (possessive) case is
-                marked by the suffix -na attached to the possessor, which
-                precedes the possessed noun. For example, naakina ini‑agaa
-                (boy's face) is formed from naaki (boy) + -na (possessive) and
-                ini‑agaa (face). 3. Polysemy and Metaphor: A core feature of
-                Kewa is that single root words cover a wide semantic field, with
-                specific meanings determined by context, often through
-                metaphorical extension. • repena: The core meaning is 'tree' or
-                'wood'. This extends to 'fire' (made from wood) and 'light'
-                (emitted by fire). Examples: repena ene (swelling on a tree),
-                repena‑ini ('fire‑eye' → coals), repena‑agaa
-                ('fire‑tongue/light' → headlights). • agaa: Related to 'mouth'
-                and its functions, extending to 'tooth', 'tongue', 'language',
-                'talk', and 'beak'. Examples: adaa‑agaa ('main language' →
-                mother tongue), agaa nala (toothache), yaa‑agaa ('bird‑mouth' →
-                bird's beak). • ini: Primary meaning 'eye'. Extended to things
-                resembling an eye (seed, kernel, ember). Examples: ini apaa
-                ('eye‑egg' → eyeball), repena‑ini ('fire‑eye' → coals), aga‑ini
-                ('pandanus‑eye' → pandanus nut). • iri: Means 'hair', extended
-                to fibrous things like 'grass' and 'feathers'. Examples:
-                yagaa‑iri ('jaw‑hair' → beard), mena‑iri ('pig‑hair' → tough
-                grass). • ki: General term for 'limb/appendage', can refer to
-                'arm', 'hand', 'finger', or 'thigh'. Examples: adaa ki (middle
-                finger), ki‑komaa (whole arm), mena‑ki (pig thigh). • ora:
-                Functions as adjective 'true' (orada dia 'it is not true') and
-                intensifying adverb 'very' (ora adaa 'very big'). 4. Vocabulary
-                Derivation: By analyzing the compounds, meanings of numerous
-                roots were determined: mena (pig), yaa (bird), uni (bone), ada
-                (house/nest), naaki (boy), nogo (girl), pamoagae (old woman),
-                balina (foreign/white man), poripu (wind), boke (hole), suku
-                (bright/shiny), aga (seed/nut), nala (ache/pain), dia (not),
-                nina (my), etc. These deductions allow translation of all
-                phrases in the problem.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <!-- Problem 2025-5 -->
-        <div class="accordion-item mb-3">
-          <h2 class="accordion-header" id="p2025-5-head">
-            <button
-              class="accordion-button collapsed"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#p2025-5-body"
-              aria-expanded="false"
-              aria-controls="p2025-5-body">
-              Problem 2025‑5 · Kaqchikel Syntax & fMRI Mapping
-            </button>
-          </h2>
-          <div
-            id="p2025-5-body"
-            class="accordion-collapse collapse"
-            aria-labelledby="p2025-5-head"
-            data-bs-parent="#iolAccordion">
-            <div class="accordion-body">
-              <h6 class="text-info fw-bold">Answer</h6>
-              <pre
-                class="bg-light p-3 rounded small"
-                style="white-space: pre-wrap">
-  a_A: q’ëq
-  a_B: ri
-  a_C: Xeroyoj
-  a_D: ri taq xar
-  a_E: Xkinïm ri taq käq
-  a_F: ri xar ri taq säq
-  a_G: Ri taq xar
-  a_H: ri käq
-  a_I: Ri säq xeruch’äy ri taq q’ëq
-
-  b_9:
-  • Two or more white stick figures pushing or lunging at a single black stick figure.
-
-  b_10:
-  • Two or more red stick figures punch two or more blue stick figures.
-  • Two or more blue stick figures punch two or more red stick figures.
-
-  c:
-  • Ri xar xroyoj ri säq
-  • Xroyoj ri säq ri xar
-  • Xroyoj ri xar ri säq
-  • Ri säq xroyoj ri xar
-
-  d_11_frontal_cortex: higher
-  d_11_auditory_cortex: higher
-  d_11_explanation: The sentence has a VAP (Verb-Agent-Patient) structure. This is a non-canonical word order, leading to higher frontal cortex activity (difficulty), and it is verb-initial, leading to higher auditory cortex activity (surprise).
-
-  d_12_frontal_cortex: lower
-  d_12_auditory_cortex: higher
-  d_12_explanation: The sentence has a VPA (Verb-Patient-Agent) structure. This is a canonical word order, leading to lower frontal cortex activity (ease of processing), but it is verb-initial, leading to higher auditory cortex activity (surprise).
-
-  d_13_frontal_cortex: cannot predict
-  d_13_auditory_cortex: lower
-  d_13_explanation: The sentence is NP-initial, which results in lower auditory activity. However, both the agent and patient are plural, and the verb is marked for both plural agent and plural patient. This makes the sentence ambiguous between the canonical AVP order (which would cause lower frontal activity) and the non-canonical PVA order (which would cause higher frontal activity). Therefore, the frontal cortex activity cannot be predicted.
-              </pre>
-
-              <h6 class="mt-4 fw-bold">Explanation</h6>
-              <p class="small" style="white-space: pre-wrap">
-                The Kaqchikel sentences exhibit an ergative‑absolutive alignment
-                system and flexible word order, which correlate with the
-                observed brain activity. 1. Noun Phrase (NP) Structure: Noun
-                phrases consist of a determiner and a noun (a color). The
-                singular definite article is <em>ri</em> (e.g.,
-                <em>ri xar</em> 'the blue one'). The plural is formed by adding
-                <em>taq</em> after the article: <em>ri taq säq</em> ('the white
-                ones'). 2. Verb Morphology: Transitive verbs in the completive
-                aspect are marked with the prefix <em>x-</em> and agree with
-                both the agent (ergative) and the patient (absolutive). The
-                prefix structure is
-                <code>x-[ABSOLUTIVE]-[ERGATIVE]-[VERB ROOT]</code>. • Absolutive
-                prefixes (Patient): Ø- for 3sg, e- for 3pl. • Ergative prefixes
-                (Agent): 3sg u- (before consonant) / r- (before vowel); 3pl ki-
-                (before consonant) / k- (before vowel). • Phonological Rule:
-                When plural absolutive <em>e-</em> is followed by singular
-                ergative <em>u-</em>, an <em>r</em> is inserted (x-e-ru- ...).
-                3. Word Order & Brain Activity Correlation: • Auditory Cortex
-                (Surprise): Higher for verb‑initial sentences (VPA, VAP); lower
-                for NP‑initial (AVP, PVA). • Frontal Cortex (Processing
-                Difficulty): Lower for canonical AVP & VPA; higher for
-                non‑canonical VAP & PVA. Summary of Patterns: • AVP: Lower
-                Frontal, Lower Auditory (e.g., Sentence 2) • VPA: Lower Frontal,
-                Higher Auditory (e.g., Sentence 1) • VAP: Higher Frontal, Higher
-                Auditory (e.g., Sentence 3) • PVA: Higher Frontal, Lower
-                Auditory (e.g., Sentence 4) These rules allow decoding of
-                sentence structure, reconstruction of missing elements,
-                interpretation of ambiguous sentences, and prediction of
-                cognitive load based on syntax.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  </div>
-
-  <div class="card card-body blur shadow-blur mx-3 mx-md-4 mt-n6 mb-8">
-    <h2 id="paper" class="text-center my-5">Our Paper</h2>
-    <h4 class="text-center w-70 mx-auto">
-      LingBench++: A Linguistically-Informed Benchmark and Reasoning Framework
-      for Multi-Step and Cross-Cultural Inference with LLMs
-    </h4>
-    <p class="text-justify lead mb-5 w-70 mx-auto">
-      We propose LingBench++, a linguistically-informed benchmark and reasoning
-      framework designed to evaluate large language models (LLMs) on complex
-      linguistic tasks inspired by the International Linguistics Olympiad (IOL).
-      Unlike prior benchmarks that focus solely on final answer accuracy,
-      LingBench++ provides structured reasoning traces, stepwise evaluation
-      protocols, and rich typological metadata across over 90 low-resource and
-      cross-cultural languages. We further develop a multi-agent architecture
-      integrating grammatical knowledge retrieval, tool-augmented reasoning, and
-      deliberate hypothesis testing. Through systematic comparisons of baseline
-      and our proposed agentic models, we demonstrate that models equipped with
-      external knowledge sources and iterative reasoning outperform single-pass
-      approaches in both accuracy and interpretability. LingBench++ offers a
-      comprehensive foundation for advancing linguistically grounded, culturally
-      informed, and cognitively plausible reasoning in LLMs.
+  <!-- ===== AI Answers (IOL Experiments) ===== -->
+  <section id="ai-answers" class="mb-5">
+    <h3 class="fw-bold text-center mb-4 display-6">AI Answers from IOL Experiments</h3>
+    <p class="text-center text-muted mb-5" style="max-width:70ch;margin:0 auto;">
+      Below are the exact AI outputs (Answer + Explanation) for each 2025 IOL problem. Click to expand.
     </p>
-    <a
-      class="btn btn-md bg-gradient-info text-center min-w-20 mx-auto"
-      rel="noopener"
-      href="https://arxiv.org/abs/2507.16809">
-      View our paper on Arxiv.org
-    </a>
-  </div>
 
-  <div
-    class="card card-body blur bg-gradient-dark shadow-blur mx-3 mx-md-4 mt-n6 mb-8">
-    <h2 id="our-app" class="text-center text-white my-5 fw-bold">
-      Download the App
-    </h2>
-    <div class="w-70 text-center items-center row mx-auto">
-      <h5 class="text-center mb-3 text-white">For iOS users</h5>
-      <p class="text-justify lead text-white mb-4">
-        You can download the app directly using the link below, or simply search
-        <b>“2025 IOL”</b> on App Store:
-        <a
-          class="text-light"
-          href="https://apps.apple.com/us/app/2025-iol/id6748054270"
-          >https://apps.apple.com/us/app/2025-iol/id6748054270</a
-        >
-      </p>
-      <h5 class="text-center my-3 text-white">For Android users</h5>
-      <p class="text-justify lead text-secondary mb-2 text-white">
-        Please join the Google Group before downloading the app. Click
-        <b>“Join group”</b> or <b>“Joining the group”</b> at
-        <a class="text-light" href="https://groups.google.com/g/2025-iol">
-          https://groups.google.com/g/2025-iol </a
-        >.
-      </p>
-      <p class="text-justify lead text-secondary mb-4 text-white">
-        Once you’ve become a group member, you can download the app
-        <a
-          class="text-light"
-          href="https://play.google.com/store/apps/details?id=com.william12995.iol2025">
-          <b>here</b>
-        </a>
-      </p>
-      <h5 class="text-white text-center my-3">For Web users</h5>
-      <p class="text-white text-justify lead mb-5">
-        You can access the web version (chatbot feature only) here:
-        <a
-          class="text-light"
-          href="https://lopen.linguistics.ntu.edu.tw/iol2025/"
-          >https://lopen.linguistics.ntu.edu.tw/iol2025/</a
-        >
-      </p>
-    </div>
-  </div>
-  <div class="card card-body blur shadow-blur mx-3 mx-md-4 mt-n6">
-    <h2 id="our-team" class="text-center my-5">Our Team</h2>
-    <div class="row justify-content-center w-100 mb-5">
-      <div class="col-lg-4">
-        <AboutInformation />
+    <div class="accordion" id="iolAccordion">
+
+      <!-- ================= Problem 2025-1 ================= -->
+      <div class="accordion-item mb-3">
+        <h2 class="accordion-header" id="p2025-1-head">
+          <button class="accordion-button collapsed" type="button"
+                  data-bs-toggle="collapse" data-bs-target="#p2025-1-body"
+                  aria-expanded="false" aria-controls="p2025-1-body">
+            Problem 2025‑1 · Dzongkha Number Systems
+          </button>
+        </h2>
+        <div id="p2025-1-body" class="accordion-collapse collapse"
+             aria-labelledby="p2025-1-head" data-bs-parent="#iolAccordion">
+          <div class="accordion-body">
+            <h5 class="ai-section-title text-info">Answer</h5>
+            <pre class="ai-pre">
+a_X: sum    a_Y: ke sum da ɲi    a_Z: ɲiɕu ɲi da ke ʑi da ŋa
+
+b_1:  13 + 70 = 83
+b_2:  800 = 20 × 40
+b_3:  469 = (50 × 9) + 19
+b_4:  600 + 110 = 500 + 210
+b_5:  (2 × 0.25) + 0.5 = 1
+b_6:  (1100 × 0.5) + 50 = 600
+b_7:  736 = (84 × 4) + 400
+b_8:  2 × 609 = (3 × 400) + 18
+b_9:  62 + 24 = 86
+b_10: 885 + 115 = 1000
+
+c_75_system_A: ke ko-da ʑi
+c_75_system_B: dønŋa
+c_570_system_A: ɲiɕu ci da ke ge da cutãm
+c_570_system_B: ŋapɟa døn
+            </pre>
+
+            <h5 class="ai-section-title mt-4">Explanation</h5>
+            <div class="ai-exp">
+<p><strong>What’s going on?</strong> Dzongkha names big numbers in <em>two different ways</em>:</p>
+<ol>
+  <li><strong>System A (Base‑20 / “vigesimal”)</strong> – Uses 20 (<code>ke</code>) and 400 (<code>ɲiɕu</code>=20²) as building blocks, then adds pieces together.</li>
+  <li><strong>System B (Decimal)</strong> – Looks more like English: special words for tens (20, 70) and “digit + tens” patterns (e.g., 30 = <code>sumcu</code>).</li>
+</ol>
+
+<p><strong>Basic digits (1–9):</strong> ci (1), ɲi (2), sum (3), ʑi (4), ŋa (5), ɖu (6), dyn (7), ge (8), gu (9). Ten is <code>cu</code> or <code>cutãm</code>. 11–19 = “10 + digit” (e.g., <code>cuɲi</code> ‘12’).</p>
+
+<hr class="my-3">
+
+<p><strong>System A details:</strong></p>
+<ul>
+  <li><code>M₁×ɲiɕu da M₂×ke da U</code>  → “(M₁ × 400) and (M₂ × 20) and Units”.</li>
+  <li>Multiplication is written by just putting words together (e.g., <code>ke sum</code> = 20 × 3 = 60).</li>
+  <li><em>Subtractive trick:</em> “Base X‑da Y” = Base × (Y − X).  
+      From the equations we learn: <code>pɟe = 0.5</code> (half), <code>ko = 0.25</code> (quarter).  
+      Example: <code>ke pɟe-da ʑi</code> = 20 × (4 − 0.5) = 70.</li>
+</ul>
+
+<p><strong>System B details:</strong></p>
+<ul>
+  <li>Tens: some are unique (e.g., <code>tsa</code> ‘20’, <code>døn</code> ‘70’); others are “digit + ‑cu/‑pcu” (e.g., <code>sumcu</code> ‘30’).</li>
+  <li>Units just attach: <code>dønɖu</code> = 70 + 6 = 76.</li>
+  <li>Hundreds: digit + <code>‑ɟa</code> (e.g., <code>sumɟa</code> ‘300’, <code>ŋapɟa</code> ‘500’).</li>
+</ul>
+
+<hr class="my-3">
+
+<p><strong>Polysemous words (same form, different values):</strong></p>
+<ul>
+  <li><code>ɟa</code> = 100 as a suffix (‑ɟa), but 80 as a prefix (ɟa‑) → numbers 81–89 (e.g., ɟagu = 89).</li>
+  <li><code>ɲiɕu</code> = 400 in System A structures, but 20 in straight arithmetic contexts.</li>
+</ul>
+
+<p><strong>About equation (5):</strong> The printed right side is <code>ɲi</code> (=2), giving 1 = 2. Likely a typo; it should be <code>ci</code> (=1).</p>
+
+<p>With these rules you can translate every equation, solve the unknowns, and write each result in both numbering systems.</p>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="col-lg-8">
-        <AboutTeam />
+
+      <!-- ================= Problem 2025-2 ================= -->
+      <div class="accordion-item mb-3">
+        <h2 class="accordion-header" id="p2025-2-head">
+          <button class="accordion-button collapsed" type="button"
+                  data-bs-toggle="collapse" data-bs-target="#p2025-2-body"
+                  aria-expanded="false" aria-controls="p2025-2-body">
+            Problem 2025‑2 · Gaahmg Possession System
+          </button>
+        </h2>
+        <div id="p2025-2-body" class="accordion-collapse collapse"
+             aria-labelledby="p2025-2-head" data-bs-parent="#iolAccordion">
+          <div class="accordion-body">
+            <h5 class="ai-section-title text-info">Answer</h5>
+            <pre class="ai-pre">
+a_1: S   a_2: G   a_3: Q   a_4: F   a_5: R   a_6: N   a_7: D   a_8: C   a_9: K   a_10: I
+a_11: O  a_12: B  a_13: L  a_14: M  a_15: E  a_16: P  a_17: T  a_18: H  a_19: J  a_20: A
+
+b_translation_ɛ̄_tááðà: his shoulder
+b_translation_ɛ̄_mə̄ə̄ð: his grandmother
+b_explanation: 'These phrases are unexpected for two main reasons. First, the prefix ɛ̄- is used in the data to mean "your singular" for a specific class of nouns (E-class), but here it appears to mean "his". Second, it attaches to nouns that do not belong to the E-class: tááðà "shoulder" is an A-class noun (taking prefixes like á-), and mə̄ə̄ð "grandmother" is related to an O-class/postposing noun. This usage of ɛ̄- as a "his" marker seems to be a special case that overrides the usual noun class and vowel harmony rules. Furthermore, for "grandmother", it uses a prefixing strategy on the stem mə̄ə̄ð, whereas the singular form in the data, ɖɔ̄ɔ̄r, uses a postposing strategy.'
+
+c_21: his ribs
+c_22: their grandmothers
+c_23: your (sg.) ribs
+c_24: his dogs
+c_25: your (sg.) grindstone
+
+d_26: á máàm
+d_27: ʈɛ́ɛ̀l ə́nə̀g
+d_28: ɛ̄g îl
+d_29: āg ābɛ́ɛ́
+d_30: ɔ́ tùndùlīīg
+            </pre>
+
+            <h5 class="ai-section-title mt-4">Explanation</h5>
+            <div class="ai-exp">
+<p><strong>Big picture:</strong> Gaahmg shows possession in two ways, and which one you use depends on the noun’s class. Vowels in the prefixes “harmonize” with the noun’s vowels.</p>
+
+<ol>
+  <li><strong>Prefixing nouns (most of them):</strong>  
+    Three classes with matching vowels in the possessive prefix.<br>
+    <ul>
+      <li><strong>A‑class</strong> (/a/): e.g., <em>máàm</em> ‘grindstone’, <em>tááðà</em> ‘shoulder’. Prefixes: <code>á‑</code>, <code>ā‑</code>, <code>āg‑</code>.</li>
+      <li><strong>E‑class</strong> (/ɛ, i/): e.g., <em>îl</em> ‘anchor’. Prefixes: <code>ɛ̄‑</code>, <code>ɛ̄g‑</code>.</li>
+      <li><strong>O‑class</strong> (/ɔ, u/): e.g., <em>tùndùlīīg</em> ‘dogs’. Prefixes: <code>ɔ́‑</code>, <code>ɔ̄‑</code>, <code>ɔ̄g‑</code>.</li>
+    </ul>
+  </li>
+
+  <li><strong>Postposing nouns (a smaller set):</strong>  
+      The noun is followed by a separate pronoun: e.g., <em>ɖɔ̄ɔ̄r</em> ‘grandmother (sg.)’, <em>áðág</em> ‘hammer’, <em>gùùr</em> ‘horn’, <em>ʈɛ́ɛ̀l</em> ‘cheeks’.</li>
+</ol>
+
+<p><strong>Number & irregularity:</strong> Plurals can be formed by suffixes (<em>gùùr → gùùrììg</em>), or suppletion (<em>îl → pɛ̀bàrɛ̄ɛ̄g</em>). Some nouns even switch strategy between singular and plural (e.g., ‘grandmother’ is postposing in sg., prefixing in pl.).</p>
+
+<p><strong>Syncretism (same form, different meanings):</strong>  
+The person/number you get from a prefix depends on the noun’s number. Examples:<br>
+<code>á‑</code> = ‘my’ (with plural noun) <em>or</em> ‘your (sg)’ (with singular noun). <br>
+<code>ɔ̄g‑</code> = ‘your (pl)’ <em>or</em> ‘their’.</p>
+
+<p><strong>Why the weird forms?</strong> The prefix <code>ɛ̄‑</code> normally marks ‘your (sg)’ for E‑class nouns—but the data show it marking ‘his’ on A‑ or O‑class nouns. That’s a special override rule. Likewise, ‘grandmother’ flips from postposing (sg) to prefixing (pl).</p>
+            </div>
+          </div>
+        </div>
       </div>
+
+      <!-- ================= Problem 2025-3 ================= -->
+      <div class="accordion-item mb-3">
+        <h2 class="accordion-header" id="p2025-3-head">
+          <button class="accordion-button collapsed" type="button"
+                  data-bs-toggle="collapse" data-bs-target="#p2025-3-body"
+                  aria-expanded="false" aria-controls="p2025-3-body">
+            Problem 2025‑3 · Kuria Verb Morphology
+          </button>
+        </h2>
+        <div id="p2025-3-body" class="accordion-collapse collapse"
+             aria-labelledby="p2025-3-head" data-bs-parent="#iolAccordion">
+          <div class="accordion-body">
+            <h5 class="ai-section-title text-info">Answer</h5>
+            <pre class="ai-pre">
+a_20: ahéétóka
+
+b_21: They have rubbed (something).
+b_22: We have ground the seeds.
+b_23: I bite (something).
+b_24: Indeed, he has sung (something).
+
+c_25: torarya iʧíímbéɣo
+c_26: mꞵína
+c_27: ntooꞵiimá iritáárákímúra
+c_28: torasáámba
+c_29: aahéétóka
+            </pre>
+
+            <h5 class="ai-section-title mt-4">Explanation</h5>
+            <div class="ai-exp">
+<p><strong>Recipe for a Kuria verb:</strong>  
+<code>(Emphatic N‑) – Subject Prefix – TAM – Root – Final -a</code></p>
+
+<ul>
+  <li><strong>Subject prefixes:</strong> n‑ ‘I’, a‑ ‘he’, to‑ ‘we’, ꞵa‑ ‘they’.  
+      <em>Sound tweak:</em> n‑ → m‑ before a bilabial (e.g., <code>mꞵína</code>).</li>
+
+  <li><strong>Tense/Aspect (TAM):</strong>
+    <ul>
+      <li><strong>Present:</strong> no marker.</li>
+      <li><strong>Perfect (“has/have V‑ed”):</strong> a vowel <code>-a-</code> fuses with the subject prefix → long vowel (naa‑, aa‑, too‑, ꞵaa‑).</li>
+      <li><strong>Prospective (“about to V”):</strong> marker <code>-ra-</code> after the subject prefix (toraroma = ‘we are about to bite’).</li>
+    </ul>
+  </li>
+
+  <li><strong>Emphatic Perfect (“Indeed, … has”):</strong> add a nasal <code>N‑</code> before the perfect form: N + aa‑ → naa‑; N + too‑ → ntoo‑; N + ꞵaa‑ → mbaa‑, etc.</li>
+
+  <li><strong>Tone matters:</strong> roots are Low vs High.  
+    <ul>
+      <li><strong>L‑roots</strong> (ry ‘eat’, sy ‘grind’, rom ‘bite’, ꞵiim ‘measure’): perfect & prospective are low; emphatic perfect puts a high tone on the final vowel; present monosyllables get a high tone on the root vowel (ndóma).</li>
+      <li><strong>H‑roots</strong> (ꞵin ‘sing’, saamb ‘burn’, sukur ‘rub’, heetok ‘remember’): present/prospective have highs on all root vowels; perfect: short roots → final high; long roots → highs across the root; emphatic perfect → high on the first root vowel.</li>
+    </ul>
+  </li>
+</ul>
+
+<p>These pieces let you build every form in the problem and decode what each sentence means.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ================= Problem 2025-4 ================= -->
+      <div class="accordion-item mb-3">
+        <h2 class="accordion-header" id="p2025-4-head">
+          <button class="accordion-button collapsed" type="button"
+                  data-bs-toggle="collapse" data-bs-target="#p2025-4-body"
+                  aria-expanded="false" aria-controls="p2025-4-body">
+            Problem 2025‑4 · Kewa Compounding & Polysemy
+          </button>
+        </h2>
+        <div id="p2025-4-body" class="accordion-collapse collapse"
+             aria-labelledby="p2025-4-head" data-bs-parent="#iolAccordion">
+          <div class="accordion-body">
+            <h5 class="ai-section-title text-info">Answer</h5>
+            <pre class="ai-pre">
+a_15: D  a_16: N  a_17: T  a_18: L  a_19: W  a_20: O  a_21: Y  a_22: H  a_23: I  a_24: G
+a_25: A  a_26: Q  a_27: C  a_28: V  a_29: P  a_30: K  a_31: U  a_32: F  a_33: M  a_34: E
+a_35: J  a_36: X  a_37: S  a_38: R  a_39: B
+
+b_40:
+• tree
+• wood
+• fire
+
+b_41:
+• mouth
+• tooth
+• tongue
+• language
+• talk
+• beak
+
+b_42:
+• hair
+• grass
+• feather
+
+b_43:
+• jaw
+• jawbone
+
+b_44:
+• I am not
+
+b_45:
+• feather
+
+b_46:
+• children
+
+c_47: balina
+c_48: uni
+c_49: repena-aga
+c_50: boke
+c_51: ora adaa
+c_52: aga-ini
+c_53: pamoagaena ini
+            </pre>
+
+            <h5 class="ai-section-title mt-4">Explanation</h5>
+            <div class="ai-exp">
+<p><strong>Two big ideas:</strong> (1) Words combine in a fixed order to make new meanings. (2) Single roots can mean lots of related things.</p>
+
+<ol>
+  <li><strong>Modifier–Head compounding:</strong> First word narrows the second.  
+      <code>mena‑ada</code> = pig‑house → ‘pig sty’; <code>ada‑mena</code> = house‑pig → ‘domesticated pig’.  
+      Adjectives/adverbs also come first: <em>ora adaa</em> ‘very big’.</li>
+
+  <li><strong>Possession:</strong> add <code>‑na</code> to the possessor and put it before what’s owned:  
+      <code>naakina ini‑agaa</code> = boy‑GEN face (“boy’s face”).</li>
+
+  <li><strong>Polysemy & metaphor chains:</strong>
+    <ul>
+      <li><strong>repena</strong> ‘tree/wood’ → ‘fire’ (made from wood) → ‘light’ (made by fire).  
+          e.g., <em>repena‑ini</em> “fire‑eye” = coals, <em>repena‑agaa</em> “fire‑tongue” = headlights.</li>
+      <li><strong>agaa</strong> ‘mouth’ → tooth, tongue, language, speech, beak.  
+          e.g., <em>adaa‑agaa</em> “main mouth” = mother tongue; <em>yaa‑agaa</em> “bird‑mouth” = beak.</li>
+      <li><strong>ini</strong> ‘eye’ → seed, kernel, ember (things shaped like eyes).  
+          e.g., <em>aga‑ini</em> “pandanus‑eye” = pandanus nut.</li>
+      <li><strong>iri</strong> ‘hair’ → grass, feather (things like hair).  
+          e.g., <em>mena‑iri</em> “pig‑hair” = stiff grass.</li>
+      <li><strong>ki</strong> general “limb/appendage” → arm, hand, finger, thigh.</li>
+      <li><strong>ora</strong> adjective “true” and adverb “very”.</li>
+    </ul>
+  </li>
+</ol>
+
+<p>By tracking these patterns you can infer each root meaning and translate every phrase in the dataset.</p>            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ================= Problem 2025-5 ================= -->
+      <div class="accordion-item mb-3">
+        <h2 class="accordion-header" id="p2025-5-head">
+          <button class="accordion-button collapsed" type="button"
+                  data-bs-toggle="collapse" data-bs-target="#p2025-5-body"
+                  aria-expanded="false" aria-controls="p2025-5-body">
+            Problem 2025‑5 · Kaqchikel Syntax & fMRI Mapping
+          </button>
+        </h2>
+        <div id="p2025-5-body" class="accordion-collapse collapse"
+             aria-labelledby="p2025-5-head" data-bs-parent="#iolAccordion">
+          <div class="accordion-body">
+            <h5 class="ai-section-title text-info">Answer</h5>
+            <pre class="ai-pre">
+a_A: q’ëq
+a_B: ri
+a_C: Xeroyoj
+a_D: ri taq xar
+a_E: Xkinïm ri taq käq
+a_F: ri xar ri taq säq
+a_G: Ri taq xar
+a_H: ri käq
+a_I: Ri säq xeruch’äy ri taq q’ëq
+
+b_9:
+• Two or more white stick figures pushing or lunging at a single black stick figure.
+
+b_10:
+• Two or more red stick figures punch two or more blue stick figures.
+• Two or more blue stick figures punch two or more red stick figures.
+
+c (all grammatical orders):
+• Ri xar xroyoj ri säq
+• Xroyoj ri säq ri xar
+• Xroyoj ri xar ri säq
+• Ri säq xroyoj ri xar
+
+d_11_frontal_cortex: higher
+d_11_auditory_cortex: higher
+d_11_explanation: The sentence has a VAP (Verb-Agent-Patient) structure. This is a non-canonical word order, leading to higher frontal cortex activity (difficulty), and it is verb-initial, leading to higher auditory cortex activity (surprise).
+
+d_12_frontal_cortex: lower
+d_12_auditory_cortex: higher
+d_12_explanation: The sentence has a VPA (Verb-Patient-Agent) structure. This is a canonical word order, leading to lower frontal cortex activity (ease of processing), but it is verb-initial, leading to higher auditory cortex activity (surprise).
+
+d_13_frontal_cortex: cannot predict
+d_13_auditory_cortex: lower
+d_13_explanation: The sentence is NP-initial, which results in lower auditory activity. However, both the agent and patient are plural, and the verb is marked for both plural agent and plural patient. This makes the sentence ambiguous between the canonical AVP order (which would cause lower frontal activity) and the non-canonical PVA order (which would cause higher frontal activity). Therefore, the frontal cortex activity cannot be predicted.
+            </pre>
+
+            <h5 class="ai-section-title mt-4">Explanation</h5>
+            <div class="ai-exp">
+<p><strong>The puzzle:</strong> You see Kaqchikel sentences (colors + stick figures), and brain activity data. You must figure out how the grammar works and why certain word orders change brain responses.</p>
+
+<h6>1. Noun Phrases (NPs)</h6>
+<ul>
+  <li>Structure: <code>ri</code> (definite article) + color. Plural = <code>ri taq X</code> (“the X‑s”).</li>
+</ul>
+
+<h6>2. Verb Morphology (completive aspect)</h6>
+<p>Template: <code>x‑[ABSOLUTIVE]‑[ERGATIVE]‑ROOT</code></p>
+<ul>
+  <li><strong>Absolutive (patient):</strong> Ø‑ (3sg), <code>e‑</code> (3pl).</li>
+  <li><strong>Ergative (agent):</strong> 3sg <code>u‑ / r‑</code>, 3pl <code>ki‑ / k‑</code> (allomorph depends on the next sound).</li>
+  <li><strong>Phonology:</strong> If plural ABS <code>e‑</code> is followed by 3sg ERG <code>u‑</code>, an <code>r</code> is inserted: <code>x‑e‑ru‑...</code></li>
+</ul>
+
+<h6>3. Word order & brain activity</h6>
+<p>Kaqchikel allows several permutations of Verb (V), Agent (A), Patient (P). Brain scans show:</p>
+<ul>
+  <li><strong>Auditory cortex (“surprise”):</strong> Higher when the sentence starts with a verb (V‑initial). Lower when an NP comes first.</li>
+  <li><strong>Frontal cortex (“processing effort”):</strong> Lower for canonical orders (AVP, VPA). Higher for non‑canonical orders (VAP, PVA).</li>
+</ul>
+
+<p><strong>Patterns recap:</strong></p>
+<ul>
+  <li><strong>AVP</strong> – Low Frontal, Low Auditory</li>
+  <li><strong>VPA</strong> – Low Frontal, High Auditory</li>
+  <li><strong>VAP</strong> – High Frontal, High Auditory</li>
+  <li><strong>PVA</strong> – High Frontal, Low Auditory</li>
+</ul>
+
+<p><strong>Why d_13 is “can’t predict” for frontal cortex:</strong> The sentence starts with an NP (low auditory). But both NPs are plural and the verb has both plural markers, so it’s ambiguous between AVP (easy) and PVA (hard). Hence frontal activity is uncertain.</p>            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
+  </section>
+</div>
+
+<!-- ===== Your download / team sections remain the same ===== -->
+<div class="card card-body blur bg-gradient-dark shadow-blur mx-3 mx-md-4 mt-n6 mb-8">
+  <h2 id="our-app" class="text-center text-white my-5 fw-bold">Download the App</h2>
+  <div class="w-70 text-center items-center row mx-auto">
+    <h5 class="text-center mb-3 text-white">For iOS users</h5>
+    <p class="text-justify lead text-white mb-4">
+      You can download the app directly using the link below, or simply search
+      <b>“2025 IOL”</b> on App Store:
+      <a class="text-light" href="https://apps.apple.com/us/app/2025-iol/id6748054270">https://apps.apple.com/us/app/2025-iol/id6748054270</a>
+    </p>
+    <h5 class="text-center my-3 text-white">For Android users</h5>
+    <p class="text-justify lead text-secondary mb-2 text-white">
+      Please join the Google Group before downloading the app. Click
+      <b>“Join group”</b> or <b>“Joining the group”</b> at
+      <a class="text-light" href="https://groups.google.com/g/2025-iol">https://groups.google.com/g/2025-iol</a>.
+    </p>
+    <p class="text-justify lead text-secondary mb-4 text-white">
+      Once you’ve become a group member, you can download the app
+      <a class="text-light" href="https://play.google.com/store/apps/details?id=com.william12995.iol2025"><b>here</b></a>
+    </p>
+    <h5 class="text-white text-center my-3">For Web users</h5>
+    <p class="text-white text-justify lead mb-5">
+      You can access the web version (chatbot feature only) here:
+      <a class="text-light" href="https://lopen.linguistics.ntu.edu.tw/iol2025/">https://lopen.linguistics.ntu.edu.tw/iol2025/</a>
+    </p>
   </div>
-  <DefaultFooter />
+</div>
+
+<div class="card card-body blur shadow-blur mx-3 mx-md-4 mt-n6 mb-8">
+  <h2 id="our-team" class="text-center my-5">Our Team</h2>
+  <AboutInformation />
+  <AboutTeam />
+</div>
 </template>
+<DefaultFooter />
 
 <style scoped>
-.bg-cover {
-  background-size: cover !important;
-}
-.bg-center {
-  background-position: center center !important;
-}
-
-.table {
-  table-layout: fixed;
-}
-
-section > p {
-  font-size: 1.05rem;
-  color: #374151; /* darker gray (#374151 = tailwind gray‑700) */
-  opacity: 1;
-}
-
-.table th,
-.table td {
-  font-size: 1.05rem;
-  vertical-align: top;
-  word-wrap: break-word;
+/* Accordion text blocks */
+.ai-pre{
   white-space: pre-wrap;
-  padding: 0.75rem 1rem;
-}
-</style>
-
-<style>
-/* Optional fine-tuning */
-#ai-answers pre {
+  word-break: break-word;
+  font-family: "JetBrains Mono","SFMono-Regular",Menlo,Consolas,monospace;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: #102a43;
+  background: #eef2f5;
+  border-radius: .75rem;
+  padding: 1.25rem 1.5rem;
+  margin: 0 0 1.5rem;
   overflow-x: auto;
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
-    "Liberation Mono", "Courier New", monospace;
 }
-#ai-answers .accordion-button {
-  font-weight: 600;
+.ai-exp{
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #344767;
+  background: #f8f9fa;
+  border-radius: .75rem;
+  padding: 1.25rem 1.5rem;
 }
+.ai-section-title{
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #344767;
+}
+
+/* Optional tweaks */
+#ai-answers .accordion-button{ font-weight:600; }
+.table{ table-layout:fixed; }
+.table th,.table td{
+  font-size:1.05rem;
+  vertical-align:top;
+  word-wrap:break-word;
+  white-space:pre-wrap;
+  padding:.75rem 1rem;
+}
+section > p{
+  font-size:1.05rem;
+  color:#374151;
+}
+.bg-cover{ background-size:cover!important; }
+.bg-center{ background-position:center center!important; }
 </style>
