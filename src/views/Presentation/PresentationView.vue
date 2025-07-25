@@ -820,7 +820,6 @@ d_13_explanation: The sentence is NP-initial, which results in lower auditory ac
       </div>
     </section>
     <!-- ===== TEAM‑CONTEST ANSWERS ===== -->
-    <div class="card card-body blur shadow-blur mx-3 mx-md-4 mt-n6 mb-8">
       <section id="team-answers" class="mb-5">
         <h3 class="fw-bold text-center mb-4">
           2025 Team‑Contest
@@ -905,7 +904,6 @@ d_13_explanation: The sentence is NP-initial, which results in lower auditory ac
         </div>
       </section>
     </div>
-  </div>
   
 
   <div class="card card-body blur shadow-blur mx-3 mx-md-4 mt-n6 mb-8">
