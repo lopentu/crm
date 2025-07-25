@@ -799,7 +799,35 @@ d_13_explanation: The sentence is NP-initial, which results in lower auditory ac
     </section>
   </div>
 
-  <!-- ===== Your download / team sections remain the same ===== -->
+  <div class="card card-body blur shadow-blur mx-3 mx-md-4 mt-n6 mb-8">
+    <h2 id="paper" class="text-center my-5 mx-auto fw-bold">Our Paper</h2>
+    <h4 class="text-center w-70 mx-auto mb-4">
+      LingBench++: A Linguistically-Informed Benchmark and Reasoning Framework
+      for Multi-Step and Cross-Cultural Inference with LLMs
+    </h4>
+    <p class="text-justify w-70 mx-auto lead mb-4">
+      We propose LingBench++, a linguistically-informed benchmark and reasoning
+      framework designed to evaluate large language models (LLMs) on complex
+      linguistic tasks inspired by the International Linguistics Olympiad (IOL).
+      Unlike prior benchmarks that focus solely on final answer accuracy,
+      LingBench++ provides structured reasoning traces, stepwise evaluation
+      protocols, and rich typological metadata across over 90 low-resource and
+      cross-cultural languages. We further develop a multi-agent architecture
+      integrating grammatical knowledge retrieval, tool-augmented reasoning, and
+      deliberate hypothesis testing. Through systematic comparisons of baseline
+      and our proposed agentic models, we demonstrate that models equipped with
+      external knowledge sources and iterative reasoning outperform single-pass
+      approaches in both accuracy and interpretability. LingBench++ offers a
+      comprehensive foundation for advancing linguistically grounded, culturally
+      informed, and cognitively plausible reasoning in LLMs.
+    </p>
+    <a
+      class="btn btn-primary max-w-40 bg-gradient-info mx-auto mb-4"
+      href="https://arxiv.org/abs/2409.17066"
+      >Read the full paper on arXiv</a
+    >
+  </div>
+
   <div
     class="card card-body blur bg-gradient-dark shadow-blur mx-3 mx-md-4 mt-n6 mb-8">
     <h2 id="our-app" class="text-center text-white my-5 fw-bold">

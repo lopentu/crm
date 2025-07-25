@@ -25,7 +25,7 @@ import you from "@/assets/img/teamPhoto/You-Kuan.png";
           <h3 class="text-white m-0">Members</h3>
         </div>
       </div>
-      <div class="row">
+      <div class="row justify-content-center">
         <div class="col-lg-2 col-6">
           <HorizontalTeamCard
             class="mt-4"
@@ -78,6 +78,8 @@ import you from "@/assets/img/teamPhoto/You-Kuan.png";
             :position="{ label: 'MA', color: 'success' }"
             description="National Taiwan University" />
         </div>
+      </div>
+      <div class="row justify-content-center mt-4">
         <div class="col-lg-2 col-6">
           <HorizontalTeamCard
             class="mt-lg-4 mt-5"
@@ -89,8 +91,6 @@ import you from "@/assets/img/teamPhoto/You-Kuan.png";
             :position="{ label: 'MA', color: 'success' }"
             description="National Taiwan University" />
         </div>
-      </div>
-      <div class="row mt-4">
         <div class="col-lg-2 col-6">
           <HorizontalTeamCard
             class="mt-4 z-index-2"
