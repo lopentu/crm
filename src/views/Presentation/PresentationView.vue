@@ -855,16 +855,64 @@ d_13_explanation: The sentence is NP-initial, which results in lower auditory ac
                 <!-- ===== ANSWER ===== -->
                 <h5 class="ai-section-title text-info">Answer</h5>
                 <pre class="ai-pre">
-    a_1‑8:   1‑A  2‑G  3‑D  4‑E  5‑F  6‑H  7‑C  8‑B
-    a_9‑16:  9‑J  10‑I  11‑L  12‑K  13‑M  14‑N  15‑O  16‑P
-    a_17‑24: 17‑S  18‑Q  19‑R  20‑V  21‑X  22‑U  23‑T  24‑W
-    a_25‑32: 25‑EE 26‑AA 27‑Z  28‑BB 29‑Y  30‑FF 31‑CC 32‑DD
-    a_33‑40: 33‑GG 34‑KK 35‑LL 36‑HH 37‑NN 38‑JJ 39‑II 40‑MM
+a_1‑8:   1‑A  2‑G  3‑D  4‑E  5‑F  6‑H  7‑C  8‑B
+a_9‑16:  9‑J  10‑I  11‑L  12‑K  13‑M  14‑N  15‑O  16‑P
+a_17‑24: 17‑S  18‑Q  19‑R  20‑V  21‑X  22‑U  23‑T  24‑W
+a_25‑32: 25‑EE 26‑AA 27‑Z  28‑BB 29‑Y  30‑FF 31‑CC 32‑DD
+a_33‑40: 33‑GG 34‑KK 35‑LL 36‑HH 37‑NN 38‑JJ 39‑II 40‑MM
 
-    b_41‑50: 41‑XX 42‑QQ 43‑OO 44‑RR 45‑PP 46‑SS 47‑VV 48‑TT 49‑UU 50‑WW
+b_41‑50: 41‑XX 42‑QQ 43‑OO 44‑RR 45‑PP 46‑SS 47‑VV 48‑TT 49‑UU 50‑WW
 
-    c_1‑12:  1‑L 2‑C 3‑D 4‑B 5‑A 6‑I 7‑G 8‑F 9‑J 10‑K 11‑E 12‑H
-    … (c‑ & d‑ lines continue exactly as in the source) …
+c_1‑12:  1‑L  2‑C 3‑D 4‑B 5‑A 6‑I 7‑G 8‑F 9‑J 10‑K 11‑E 12‑H
+c_13‑24: 13‑NN 14‑PP 15‑MM 16‑LL 17‑TT 18‑VV 19‑UU 20‑SS 21‑OO 22‑RR 23‑QQ 24‑CC
+c_25‑36: 25‑II 26‑GG 27‑BB 28‑HH 29‑Z 30‑FF 31‑DD 32‑JJ 33‑EE 34‑AA 35‑Y 36‑CC
+c_37‑48: 37‑VV 38‑RR 39‑LL 40‑MM 41‑SS 42‑KK 43‑NN 44‑PP 45‑TT 46‑QQ 47‑UU 48‑OO
+
+d_1‑36:  1‑LL 2‑BB 3‑MM 4‑A 5‑M 6‑JJ 7‑O 8‑E 9‑D 10‑I 11‑GG 12‑K
+         13‑AA 14‑B 15‑C 16‑L 17‑G 18‑C 19‑OO 20‑F 21‑FF 22‑L 23‑E 24‑CC
+         25‑H 26‑M 27‑H 28‑NN 29‑CC 30‑II 31‑O 32‑J 33‑LL 34‑HH 35‑DD 36‑EE
+
+e_i:   • she/they du/pl gave her/them du/pl  
+e_ii:  • we+pl will tell you pl  
+       • we+pl will sell you pl  
+e_iii: • I/we‑du/pl told you du  
+e_iv:  • she will laugh  
+       • they du will laugh  
+e_v:   • we+pl will go  
+e_vi:  • she/they du/pl will laugh at me  
+
+f_i:    • we‑pl are eating them pl  
+        • we‑pl will eat them pl  
+f_ii:   • you sg said to me/us‑du/pl  
+f_iii:  • I am drinking  
+        • I will drink  
+f_iv:   • you sg brought her up  
+        • you sg will bring her up  
+f_v:    • we+pl shouted at you du  
+        • we+pl will shout at you du  
+f_vi:   • you du shouted at me/us‑du/pl  
+f_vii:  • she shouted at her  
+        • she will shout at her  
+f_viii: • we+du put her to sleep  
+        • we+du will put her to sleep  
+
+g_i:  tɨmɨkʰtum  
+g_ii: mɨiptumka  
+g_iii: tɨwattuŋ  
+g_iv:  tɨsɨkcici  
+
+h_i:   Bantawa — tɨʔitm; Camling NW — tapaika; Camling SE — paine  
+h_ii:  Bantawa — incuʔa; Camling NW — idaci; Camling SE — khapaidhace  
+h_iii: Bantawa — tɨkham; Camling NW — takhaci; Camling SE — khamci  
+h_iv:  Bantawa — tɨsɨkniŋci; Camling NW — tapraininci; Camling SE — mipraininci  
+h_v:   Bantawa — setnaŋ; Camling NW — setna; Camling SE — setna  
+h_vi:  Bantawa — imyaŋa; Camling NW — prataika; Camling SE — taika  
+h_vii: Bantawa — khaci; Camling NW — khatce; Camling SE — khace  
+h_viii:Bantawa — nɨtaniŋ; Camling NW — pakhidunga; Camling SE — khatapaidhunga  
+h_ix:  Bantawa — tɨʔitcici; Camling NW — taryucici; Camling SE — miryucici  
+h_x:   Bantawa — patsinka; Camling NW — sinka; Camling SE — sinka  
+h_xi:  Bantawa — pʰodatu; Camling NW — phlodaku; Camling SE — phodaku  
+h_xii: Bantawa — tɨsetsum; Camling NW — tasetcum; Camling SE — tasetcum
                 </pre>
 
                 <!-- ===== EXPLANATION ===== -->
