@@ -12,8 +12,8 @@ import prof from "@/assets/img/teamPhoto/prof.png";
           title="Prof. Dr. Shu-Kai Hsieh (謝舒凱)"
           description="Research Area: Corpus and Computational Linguistics, Writing Systems, Semantics and Cognition"
           :action="{
-            label: 'Visit the LOPE',
-            color: 'bg-gradient-success',
+            label: 'Visit LOPE',
+            color: 'bg-gradient-info',
             route: 'https://lope.linguistics.ntu.edu.tw/',
             titleRoute: 'https://loperntu.github.io/'
           }" />

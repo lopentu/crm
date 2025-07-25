@@ -51,7 +51,7 @@ defineProps({
         :href="action.route"
         target="_blank"
         rel="noopener"
-        class="btn btn-sm mb-0 mt-3"
+        class="btn btn-md mb-0 mt-3"
         :class="action.color"
         style="text-transform: none">
         {{ action.label }}

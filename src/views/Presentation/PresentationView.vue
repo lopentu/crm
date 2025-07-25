@@ -11,6 +11,7 @@ import { ref } from "vue";
 
 //images
 import vueMkHeader from "@/assets/img/aboutUsLogo/CRM.png";
+import PresentationCounter from "./Sections/PresentationCounter.vue";
 //hooks
 const body = document.getElementsByTagName("body")[0];
 
@@ -164,7 +165,7 @@ onUnmounted(() => {
 
     <!-- ===== AI Answers (IOL Experiments) ===== -->
     <section id="ai-answers" class="mb-5">
-      <h3 class="fw-bold text-center mb-4">AI Answers from IOL Experiments</h3>
+      <h3 class="fw-bold text-center mb-4">LLM Answers from IOL Experiments</h3>
       <p
         class="text-center text-muted lead mb-5 w-70 mx-auto"
         style="font-size: 1.15rem">

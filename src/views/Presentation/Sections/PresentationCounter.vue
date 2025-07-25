@@ -10,15 +10,12 @@ import DefaultCounterCard from "../../../examples/cards/counterCards/DefaultCoun
           <div class="row">
             <div class="col-md-4 position-relative">
               <DefaultCounterCard
-                color="success"
-                title="Coded Elements"
-                description="From buttons, to inputs, navbars, alerts or cards, you are
-                  covered"
-                :count="70"
-                suffix="+"
-                :duration="3000"
-                divider="vertical"
-              />
+                color="info"
+                title="Individual Contest"
+                description="14/0/9.5/18/19.5"
+                :count="61"
+                :duration="1000"
+                divider="vertical" />
             </div>
             <div class="col-md-4 position-relative">
               <DefaultCounterCard
@@ -29,18 +26,7 @@ import DefaultCounterCard from "../../../examples/cards/counterCards/DefaultCoun
                 :count="15"
                 suffix="+"
                 :duration="3000"
-                divider="vertical"
-              />
-            </div>
-            <div class="col-md-4">
-              <DefaultCounterCard
-                color="success"
-                title="Pages"
-                description="Save 3-4 weeks of work when you use our pre-made pages for
-                  your website"
-                :count="4"
-                :duration="3000"
-              />
+                divider="vertical" />
             </div>
           </div>
         </div>
