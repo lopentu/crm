@@ -2,15 +2,15 @@
 defineProps({
   image: {
     type: String,
-    required: true,
+    required: true
   },
   title: {
     type: String,
-    required: true,
+    required: true
   },
   description: {
     type: String,
-    required: true,
+    required: true
   },
   action: {
     type: Object,
@@ -22,28 +22,18 @@ defineProps({
       color: "bg-gradient-success",
       label: "This is default",
       route: "https://lope.linguistics.ntu.edu.tw/",
-      titleRoute: 'https://loperntu.github.io/'  // name link
-    }),
-  },
+      titleRoute: "https://loperntu.github.io/" // name link
+    })
+  }
 });
 </script>
 <template>
-   <div class="card">
+  <div class="card p-0 h-100">
     <div class="card-header p-0 mt-3 mx-3">
-      <a
-        :href="action.route"
-        target="_blank"
-        rel="noopener"
-        class="d-block"
-      >
-        <img
-          :src="image"
-          :alt="title"
-          class="img-fluid w-100 rounded-top"
-        />
+      <a :href="action.route" target="_blank" rel="noopener" class="d-block">
+        <img :src="image" :alt="title" class="img-fluid w-100 rounded-top" />
       </a>
     </div>
-
 
     <div class="card-body text-center">
       <h5 class="font-weight-normal">
@@ -51,8 +41,7 @@ defineProps({
           :href="action.titleRoute"
           target="_blank"
           rel="noopener"
-          class="text-decoration-none"
-        >
+          class="text-decoration-none">
           {{ title }}
         </a>
       </h5>
@@ -64,8 +53,7 @@ defineProps({
         rel="noopener"
         class="btn btn-sm mb-0 mt-3"
         :class="action.color"
-        style="text-transform: none"
-      >
+        style="text-transform: none">
         {{ action.label }}
       </a>
     </div>

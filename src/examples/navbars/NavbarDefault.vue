@@ -150,8 +150,8 @@ watch(
             <RouterLink
               class="nav-link ps-2 d-flex cursor-pointer align-items-center"
               :class="getTextColor()"
-              :to="{ name: 'paper' }">
-              Our Paper
+              :to="{ name: 'presentation', hash: '#paper' }">
+              Paper
             </RouterLink>
           </li>
           <li class="nav-item mx-2">
@@ -166,7 +166,7 @@ watch(
             <RouterLink
               class="nav-link ps-2 d-flex cursor-pointer align-items-center"
               :to="{ name: 'presentation', hash: '#our-team' }">
-              Our Team
+              Team
             </RouterLink>
           </li>
         </ul>
