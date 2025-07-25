@@ -31,7 +31,7 @@ import you from "@/assets/img/teamPhoto/You-Kuan.png";
             class="mt-4"
             :image="una"
             :profile="{ name: 'Una Chen', link: 'https://github.com/cckk2913' }"
-            :position="{ label: 'PhD', color: 'success' }"
+            :position="{ label: 'PhD', color: 'info' }"
             description="National Taiwan University" />
         </div>
         <div class="col-lg-2 col-6">
@@ -42,7 +42,7 @@ import you from "@/assets/img/teamPhoto/You-Kuan.png";
               name: 'Richard Lian',
               link: 'https://github.com/dachenlian'
             }"
-            :position="{ label: 'PhD', color: 'success' }"
+            :position="{ label: 'PhD', color: 'info' }"
             description="National Taiwan University" />
         </div>
         <div class="col-lg-2 col-6">
@@ -53,7 +53,7 @@ import you from "@/assets/img/teamPhoto/You-Kuan.png";
               name: 'Peter Chen',
               link: 'https://github.com/gPeterh'
             }"
-            :position="{ label: 'Research Assistant', color: 'success' }"
+            :position="{ label: 'Research Assistant', color: 'info' }"
             description="National Taiwan University" />
         </div>
         <div class="col-lg-2 col-6">
@@ -64,7 +64,7 @@ import you from "@/assets/img/teamPhoto/You-Kuan.png";
               name: 'Jenny Lin',
               link: 'https://github.com/Lin-Zhen-Yu'
             }"
-            :position="{ label: 'Research Assistant', color: 'success' }"
+            :position="{ label: 'Research Assistant', color: 'info' }"
             description="National Taiwan University" />
         </div>
         <div class="col-lg-2 col-6">
@@ -75,7 +75,7 @@ import you from "@/assets/img/teamPhoto/You-Kuan.png";
               name: 'Ri-Sheng Huang',
               link: 'https://github.com/rszia'
             }"
-            :position="{ label: 'MA', color: 'success' }"
+            :position="{ label: 'MA', color: 'info' }"
             description="National Taiwan University" />
         </div>
       </div>
@@ -88,7 +88,7 @@ import you from "@/assets/img/teamPhoto/You-Kuan.png";
               name: 'Guan-Yu Tseng',
               link: 'https://github.com/bbrruu'
             }"
-            :position="{ label: 'MA', color: 'success' }"
+            :position="{ label: 'MA', color: 'info' }"
             description="National Taiwan University" />
         </div>
         <div class="col-lg-2 col-6">
@@ -101,7 +101,7 @@ import you from "@/assets/img/teamPhoto/You-Kuan.png";
             }"
             :position="{
               label: 'Electrical Engineering Undergraduate',
-              color: 'success'
+              color: 'info'
             }"
             description="National Taiwan University" />
         </div>
@@ -110,7 +110,7 @@ import you from "@/assets/img/teamPhoto/You-Kuan.png";
             class="mt-lg-4 mt-5 z-index-2"
             :image="han"
             :profile="{ name: 'Chih-Han Lin', link: 'william12995.github.io' }"
-            :position="{ label: 'MA', color: 'success' }"
+            :position="{ label: 'MA', color: 'info' }"
             description="National Taiwan University" />
         </div>
         <div class="col-lg-2 col-6">
@@ -121,7 +121,7 @@ import you from "@/assets/img/teamPhoto/You-Kuan.png";
               name: 'Tyler Yeh',
               link: 'https://github.com/confusedkernel'
             }"
-            :position="{ label: 'MA', color: 'success' }"
+            :position="{ label: 'MA', color: 'info' }"
             description="National Taiwan University" />
         </div>
         <div class="col-lg-2 col-6">
@@ -132,7 +132,7 @@ import you from "@/assets/img/teamPhoto/You-Kuan.png";
               name: 'Justin Chen',
               link: 'https://github.com/JustinChen516'
             }"
-            :position="{ label: 'Intern', color: 'success' }"
+            :position="{ label: 'Intern', color: 'info' }"
             description="Washington University in St. Louis" />
         </div>
       </div>

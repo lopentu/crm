@@ -160,34 +160,33 @@ onUnmounted(() => {
     </section>
   </div>
   <div class="card card-body blur shadow-blur mx-3 mx-md-4 mt-n6 mb-8">
-    <h2 id="findings" class="text-center my-5 display-5 fw-bold">
-      Research Findings
-    </h2>
+    <h2 id="findings" class="text-center my-5 fw-bold">Research Findings</h2>
 
     <!-- ===== AI Answers (IOL Experiments) ===== -->
     <section id="ai-answers" class="mb-5">
-      <h3 class="fw-bold text-center mb-4 display-6">
-        AI Answers from IOL Experiments
-      </h3>
+      <h3 class="fw-bold text-center mb-4">AI Answers from IOL Experiments</h3>
       <p
-        class="text-center text-muted mb-5"
-        style="max-width: 70ch; margin: 0 auto">
+        class="text-center text-muted lead mb-5 w-70 mx-auto"
+        style="font-size: 1.15rem">
         Below are the exact AI outputs (Answer + Explanation) for each 2025 IOL
         problem. Click to expand.
       </p>
 
-      <div class="accordion" id="iolAccordion">
+      <div class="accordion w-70 mx-auto" id="iolAccordion">
         <!-- ================= Problem 2025-1 ================= -->
         <div class="accordion-item mb-3">
           <h2 class="accordion-header" id="p2025-1-head">
             <button
-              class="accordion-button collapsed"
+              class="btn w-100 bg-light collapsed lead"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#p2025-1-body"
               aria-expanded="false"
               aria-controls="p2025-1-body">
               Problem 2025‑1 · Dzongkha Number Systems
+              <i class="material-icons lead" style="font-size: 1.15rem"
+                >keyboard_arrow_down</i
+              >
             </button>
           </h2>
           <div
@@ -315,13 +314,16 @@ c_570_system_B: ŋapɟa døn
         <div class="accordion-item mb-3">
           <h2 class="accordion-header" id="p2025-2-head">
             <button
-              class="accordion-button collapsed"
+              class="btn w-100 bg-light collapsed lead"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#p2025-2-body"
               aria-expanded="false"
               aria-controls="p2025-2-body">
               Problem 2025‑2 · Gaahmg Possession System
+              <i class="material-icons lead" style="font-size: 1.15rem"
+                >keyboard_arrow_down</i
+              >
             </button>
           </h2>
           <div
@@ -427,13 +429,16 @@ d_30: ɔ́ tùndùlīīg
         <div class="accordion-item mb-3">
           <h2 class="accordion-header" id="p2025-3-head">
             <button
-              class="accordion-button collapsed"
+              class="btn w-100 bg-light collapsed lead"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#p2025-3-body"
               aria-expanded="false"
               aria-controls="p2025-3-body">
               Problem 2025‑3 · Kuria Verb Morphology
+              <i class="material-icons lead" style="font-size: 1.15rem"
+                >keyboard_arrow_down</i
+              >
             </button>
           </h2>
           <div
@@ -533,13 +538,16 @@ c_29: aahéétóka
         <div class="accordion-item mb-3">
           <h2 class="accordion-header" id="p2025-4-head">
             <button
-              class="accordion-button collapsed"
+              class="btn w-100 bg-light collapsed lead"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#p2025-4-body"
               aria-expanded="false"
               aria-controls="p2025-4-body">
               Problem 2025‑4 · Kewa Compounding & Polysemy
+              <i class="material-icons lead" style="font-size: 1.15rem"
+                >keyboard_arrow_down</i
+              >
             </button>
           </h2>
           <div
@@ -666,13 +674,16 @@ c_53: pamoagaena ini
         <div class="accordion-item mb-3">
           <h2 class="accordion-header" id="p2025-5-head">
             <button
-              class="accordion-button collapsed"
+              class="btn w-100 bg-light collapsed lead"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#p2025-5-body"
               aria-expanded="false"
               aria-controls="p2025-5-body">
               Problem 2025‑5 · Kaqchikel Syntax & fMRI Mapping
+              <i class="material-icons lead" style="font-size: 1.15rem"
+                >keyboard_arrow_down</i
+              >
             </button>
           </h2>
           <div
@@ -916,15 +927,12 @@ d_13_explanation: The sentence is NP-initial, which results in lower auditory ac
 }
 
 /* Optional tweaks */
-#ai-answers .accordion-button {
-  font-weight: 600;
-}
 .table {
   table-layout: fixed;
 }
 .table th,
 .table td {
-  font-size: 1.05rem;
+  font-size: 1.15rem;
   vertical-align: top;
   word-wrap: break-word;
   white-space: pre-wrap;

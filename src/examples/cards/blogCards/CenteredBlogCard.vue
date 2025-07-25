@@ -19,7 +19,7 @@ defineProps({
     label: String,
     titleRoute: String,
     default: () => ({
-      color: "bg-gradient-success",
+      color: "bg-gradient-info",
       label: "This is default",
       route: "https://lope.linguistics.ntu.edu.tw/",
       titleRoute: "https://loperntu.github.io/" // name link
