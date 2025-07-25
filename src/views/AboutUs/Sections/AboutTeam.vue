@@ -30,7 +30,7 @@ import you from "@/assets/img/teamPhoto/You-Kuan.png";
           <HorizontalTeamCard
             class="mt-4"
             :image="una"
-            :profile="{ name: 'Una Chen', link: 'https://github.com/cckk2913' }"
+            :profile="{ name: 'Pin-Er Chen', link: 'https://github.com/cckk2913' }"
             :position="{ label: 'PhD', color: 'info' }"
             description="National Taiwan University" />
         </div>
@@ -39,7 +39,7 @@ import you from "@/assets/img/teamPhoto/You-Kuan.png";
             class="mt-4"
             :image="richard"
             :profile="{
-              name: 'Richard Lian',
+              name: 'Da-Chen Lian',
               link: 'https://github.com/dachenlian'
             }"
             :position="{ label: 'PhD', color: 'info' }"
@@ -50,7 +50,7 @@ import you from "@/assets/img/teamPhoto/You-Kuan.png";
             class="mt-lg-4 mt-5"
             :image="peter"
             :profile="{
-              name: 'Peter Chen',
+              name: 'Pin-Cheng Chen',
               link: 'https://github.com/gPeterh'
             }"
             :position="{ label: 'Research Assistant', color: 'info' }"
@@ -61,7 +61,7 @@ import you from "@/assets/img/teamPhoto/You-Kuan.png";
             class="mt-lg-4 mt-5"
             :image="jenny"
             :profile="{
-              name: 'Jenny Lin',
+              name: 'Zhen-Yu Lin',
               link: 'https://github.com/Lin-Zhen-Yu'
             }"
             :position="{ label: 'Research Assistant', color: 'info' }"
@@ -118,7 +118,7 @@ import you from "@/assets/img/teamPhoto/You-Kuan.png";
             class="mt-lg-4 mt-5 z-index-2"
             :image="tyler"
             :profile="{
-              name: 'Tyler Yeh',
+              name: 'Lang-Ching Yeh',
               link: 'https://github.com/confusedkernel'
             }"
             :position="{ label: 'MA', color: 'info' }"
@@ -129,7 +129,7 @@ import you from "@/assets/img/teamPhoto/You-Kuan.png";
             class="mt-lg-4 mt-5 z-index-2"
             :image="justin"
             :profile="{
-              name: 'Justin Chen',
+              name: 'Hung-Chi Chen',
               link: 'https://github.com/JustinChen516'
             }"
             :position="{ label: 'Intern', color: 'info' }"
