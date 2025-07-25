@@ -28,17 +28,22 @@ defineProps({
 });
 </script>
 <template>
-  <div class="card">
-    <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
+   <div class="card">
+    <div class="card-header p-0 mt-3 mx-3">
       <a
         :href="action.route"
         target="_blank"
         rel="noopener"
-        class="d-block blur-shadow-image"
+        class="d-block"
       >
-        <img :src="image" :alt="title" class="img-fluid border-radius-lg" />
+        <img
+          :src="image"
+          :alt="title"
+          class="img-fluid w-100 rounded-top"
+        />
       </a>
     </div>
+
 
     <div class="card-body text-center">
       <h5 class="font-weight-normal">

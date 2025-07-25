@@ -2,6 +2,8 @@
 // example components
 import DefaultInfoCard from "../../../examples/cards/infoCards/DefaultInfoCard.vue";
 import CenteredBlogCard from "../../../examples/cards/blogCards/CenteredBlogCard.vue";
+import prof from "@/assets/img/teamPhoto/prof.png";
+
 </script>
 <template>
   <section class="py-7">
@@ -35,9 +37,9 @@ import CenteredBlogCard from "../../../examples/cards/blogCards/CenteredBlogCard
         </div>
         <div class="col-lg-4 ms-auto mt-lg-0 mt-6">
           <CenteredBlogCard
-            image="https://images.unsplash.com/photo-1544717302-de2939b7ef71?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
+            :image="prof"
             title="謝舒凱 教授"
-            description="經驗／履歷"
+            description="研究領域：語料庫及計算語言學 / 詞彙語意學與語用學 / 文字與構詞學 / 語言與認知"
             :action="{
               label: 'Visit the LOPE Lab',
               color: 'bg-gradient-success',

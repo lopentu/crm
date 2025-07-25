@@ -3,7 +3,6 @@
 import HorizontalTeamCard from "@/examples/cards/teamCards/HorizontalTeamCard.vue";
 
 // images
-import marquez from "@/assets/img/ivana-square.jpg";
 import justin from "@/assets/img/teamPhoto/Justin.png";
 import una from "@/assets/img/teamPhoto/Una.png";
 import jenny from "@/assets/img/teamPhoto/Jenny.png";
@@ -112,50 +111,10 @@ import you from "@/assets/img/teamPhoto/You-Kuan.png";
         <div class="col-lg-2 col-6">
           <HorizontalTeamCard
             class="mt-lg-4 mt-5 z-index-2"
-            :image="marquez"
-            :profile="{ name: 'Marquez Garcia', link: 'javascript:;' }"
-            :position="{ label: 'JS Developer', color: 'success' }"
-            description="Artist is a term applied to a person who engages in an
-                    activity deemed to be an art."
-          />
-        </div>
-        <div class="col-lg-2 col-6">
-          <HorizontalTeamCard
-            class="mt-lg-4 mt-5 z-index-2"
             :image="justin"
             :profile="{ name: 'Justin Chen', link: 'https://github.com/JustinChen516' }"
             :position="{ label: '實習生', color: 'success' }"
             description="聖路易斯華盛頓大學"
-          />
-        </div>
-        <div class="col-lg-2 col-6">
-          <HorizontalTeamCard
-            class="mt-lg-4 mt-5 z-index-2"
-            :image="marquez"
-            :profile="{ name: 'Marquez Garcia', link: 'javascript:;' }"
-            :position="{ label: 'JS Developer', color: 'success' }"
-            description="Artist is a term applied to a person who engages in an
-                    activity deemed to be an art."
-          />
-        </div>
-        <div class="col-lg-2 col-6">
-          <HorizontalTeamCard
-            class="mt-lg-4 mt-5 z-index-2"
-            :image="marquez"
-            :profile="{ name: 'Marquez Garcia', link: 'javascript:;' }"
-            :position="{ label: 'JS Developer', color: 'success' }"
-            description="Artist is a term applied to a person who engages in an
-                    activity deemed to be an art."
-          />
-        </div>
-        <div class="col-lg-2 col-6">
-          <HorizontalTeamCard
-            class="mt-lg-4 mt-5 z-index-2"
-            :image="marquez"
-            :profile="{ name: 'Marquez Garcia', link: 'javascript:;' }"
-            :position="{ label: 'JS Developer', color: 'success' }"
-            description="Artist is a term applied to a person who engages in an
-                    activity deemed to be an art."
           />
         </div>
       </div>
