@@ -839,7 +839,7 @@ d_13_explanation: The sentence is NP-initial, which results in lower auditory ac
                 data-bs-target="#team‑12‑body"
                 aria-expanded="false"
                 aria-controls="team‑12‑body">
-                Problem&nbsp;2025‑12 · Kiranti (Bantawa & Camling) Verb Morphology
+                Problem&nbsp;2025 · Kiranti (Bantawa & Camling) Verb Morphology
                 <i class="material-icons lead" style="font-size:1.15rem">
                   keyboard_arrow_down
                 </i>
