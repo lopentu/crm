@@ -14,6 +14,7 @@ import riSheng from "@/assets/img/teamPhoto/Ri-Sheng.jpg";
 import bruce from "@/assets/img/teamPhoto/Bruce.png";
 import han from "@/assets/img/teamPhoto/Han.png";
 import tyler from "@/assets/img/teamPhoto/Tyler.png";
+import you from "@/assets/img/teamPhoto/You-Kuan.png";
 
 </script>
 
@@ -85,7 +86,7 @@ import tyler from "@/assets/img/teamPhoto/Tyler.png";
         <div class="col-lg-2 col-6">
           <HorizontalTeamCard
             class="mt-4 z-index-2"
-            :image="ivana"
+            :image="you"
             :profile="{ name: 'You-Kuan Lin', link: 'https://github.com/Eskartur' }"
             :position="{ label: '電機系學士班', color: 'success' }"
             description="國立臺灣大學"
