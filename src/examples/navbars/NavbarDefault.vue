@@ -165,8 +165,8 @@ watch(
           <li class="nav-item mx-2">
             <RouterLink
               class="nav-link ps-2 d-flex cursor-pointer align-items-center"
-              :to="{ name: 'about' }">
-              About Us
+              :to="{ name: 'presentation', hash: '#our-team' }">
+              Our Team
             </RouterLink>
           </li>
         </ul>

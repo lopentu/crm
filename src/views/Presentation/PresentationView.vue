@@ -5,6 +5,8 @@ import { onMounted, onUnmounted } from "vue";
 import NavbarDefault from "../..//examples/navbars/NavbarDefault.vue";
 import DefaultFooter from "../../examples/footers/FooterDefault.vue";
 import Header from "../../examples/Header.vue";
+import AboutInformation from "../AboutUs/Sections/AboutInformation.vue";
+import AboutTeam from "../AboutUs/Sections/AboutTeam.vue";
 import { ref } from "vue";
 
 //images
@@ -202,6 +204,11 @@ onUnmounted(() => {
         >
       </p>
     </div>
+  </div>
+  <div class="card card-body blur shadow-blur mx-3 mx-md-4 mt-n6 mb-8">
+    <h2 id="our-team" class="text-center my-5">Our Team</h2>
+    <AboutInformation />
+    <AboutTeam />
   </div>
   <DefaultFooter />
 </template>
