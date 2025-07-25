@@ -13,7 +13,7 @@ import richard from "@/assets/img/teamPhoto/Richard.png";
 import riSheng from "@/assets/img/teamPhoto/Ri-Sheng.jpg";
 import bruce from "@/assets/img/teamPhoto/Bruce.png";
 import han from "@/assets/img/teamPhoto/Han.png";
-
+import tyler from "@/assets/img/teamPhoto/Tyler.png";
 
 </script>
 
@@ -103,11 +103,10 @@ import han from "@/assets/img/teamPhoto/Han.png";
         <div class="col-lg-2 col-6">
           <HorizontalTeamCard
             class="mt-lg-4 mt-5 z-index-2"
-            :image="marquez"
-            :profile="{ name: 'Marquez Garcia', link: 'javascript:;' }"
-            :position="{ label: 'JS Developer', color: 'success' }"
-            description="Artist is a term applied to a person who engages in an
-                    activity deemed to be an art."
+            :image="tyler"
+            :profile="{ name: 'Tyler Yeh', link: 'https://github.com/confusedkernel' }"
+            :position="{ label: '碩士生', color: 'success' }"
+            description="國立臺灣大學"
           />
         </div>
         <div class="col-lg-2 col-6">
