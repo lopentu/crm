@@ -3,7 +3,6 @@
 import HorizontalTeamCard from "@/examples/cards/teamCards/HorizontalTeamCard.vue";
 
 // images
-import ivana from "@/assets/img/ivana-squares.jpg";
 import marquez from "@/assets/img/ivana-square.jpg";
 import justin from "@/assets/img/teamPhoto/Justin.png";
 import una from "@/assets/img/teamPhoto/Una.png";
