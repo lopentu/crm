@@ -11,9 +11,14 @@ import { ref } from "vue";
 
 //images
 import vueMkHeader from "@/assets/img/aboutUsLogo/CRM.png";
-import PresentationCounter from "./Sections/PresentationCounter.vue";
 //hooks
 const body = document.getElementsByTagName("body")[0];
+
+const isOpen2025_1 = ref(false);
+const isOpen2025_2 = ref(false);
+const isOpen2025_3 = ref(false);
+const isOpen2025_4 = ref(false);
+const isOpen2025_5 = ref(false);
 
 const blocks = ref([
   {
@@ -182,12 +187,13 @@ onUnmounted(() => {
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#p2025-1-body"
-              aria-expanded="false"
-              aria-controls="p2025-1-body">
+              :aria-expanded="isOpen2025_1"
+              aria-controls="p2025-1-body"
+              @click="() => (isOpen2025_1 = !isOpen2025_1)">
               Problem 2025‑1 · Dzongkha Number Systems
-              <i class="material-icons lead" style="font-size: 1.15rem"
-                >keyboard_arrow_down</i
-              >
+              <i class="material-icons lead" style="font-size: 1.15rem">{{
+                isOpen2025_1 ? "keyboard_arrow_up" : "keyboard_arrow_down"
+              }}</i>
             </button>
           </h2>
           <div
@@ -319,12 +325,13 @@ c_570_system_B: ŋapɟa døn
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#p2025-2-body"
-              aria-expanded="false"
-              aria-controls="p2025-2-body">
+              :aria-expanded="isOpen2025_2"
+              aria-controls="p2025-2-body"
+              @click="() => (isOpen2025_2 = !isOpen2025_2)">
               Problem 2025‑2 · Gaahmg Possession System
-              <i class="material-icons lead" style="font-size: 1.15rem"
-                >keyboard_arrow_down</i
-              >
+              <i class="material-icons lead" style="font-size: 1.15rem">{{
+                isOpen2025_2 ? "keyboard_arrow_up" : "keyboard_arrow_down"
+              }}</i>
             </button>
           </h2>
           <div
@@ -434,12 +441,13 @@ d_30: ɔ́ tùndùlīīg
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#p2025-3-body"
-              aria-expanded="false"
-              aria-controls="p2025-3-body">
+              :aria-expanded="isOpen2025_3"
+              aria-controls="p2025-3-body"
+              @click="() => (isOpen2025_3 = !isOpen2025_3)">
               Problem 2025‑3 · Kuria Verb Morphology
-              <i class="material-icons lead" style="font-size: 1.15rem"
-                >keyboard_arrow_down</i
-              >
+              <i class="material-icons lead" style="font-size: 1.15rem">{{
+                isOpen2025_3 ? "keyboard_arrow_up" : "keyboard_arrow_down"
+              }}</i>
             </button>
           </h2>
           <div
@@ -543,12 +551,13 @@ c_29: aahéétóka
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#p2025-4-body"
-              aria-expanded="false"
-              aria-controls="p2025-4-body">
+              :aria-expanded="isOpen2025_4"
+              aria-controls="p2025-4-body"
+              @click="() => (isOpen2025_4 = !isOpen2025_4)">
               Problem 2025‑4 · Kewa Compounding & Polysemy
-              <i class="material-icons lead" style="font-size: 1.15rem"
-                >keyboard_arrow_down</i
-              >
+              <i class="material-icons lead" style="font-size: 1.15rem">{{
+                isOpen2025_4 ? "keyboard_arrow_up" : "keyboard_arrow_down"
+              }}</i>
             </button>
           </h2>
           <div
@@ -679,12 +688,13 @@ c_53: pamoagaena ini
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#p2025-5-body"
-              aria-expanded="false"
-              aria-controls="p2025-5-body">
+              :aria-expanded="isOpen2025_5"
+              aria-controls="p2025-5-body"
+              @click="() => (isOpen2025_5 = !isOpen2025_5)">
               Problem 2025‑5 · Kaqchikel Syntax & fMRI Mapping
-              <i class="material-icons lead" style="font-size: 1.15rem"
-                >keyboard_arrow_down</i
-              >
+              <i class="material-icons lead" style="font-size: 1.15rem">{{
+                isOpen2025_5 ? "keyboard_arrow_up" : "keyboard_arrow_down"
+              }}</i>
             </button>
           </h2>
           <div
@@ -835,7 +845,7 @@ d_13_explanation: The sentence is NP-initial, which results in lower auditory ac
     </p>
     <a
       class="btn btn-primary max-w-40 bg-gradient-info mx-auto mb-4"
-      href="https://arxiv.org/abs/2409.17066"
+      href="https://arxiv.org/abs/2507.16809"
       >Read the full paper on arXiv</a
     >
   </div>
