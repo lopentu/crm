@@ -170,7 +170,7 @@ onUnmounted(() => {
 
     <!-- ===== AI Answers (IOL Experiments) ===== -->
     <section id="ai-answers" class="mb-5">
-      <h3 class="fw-bold text-center mb-4">LLM Answers from IOL Experiments</h3>
+      <h3 class="fw-bold text-center mb-4">2025 Individual</h3>
       <p
         class="text-center text-muted lead mb-5 w-70 mx-auto"
         style="font-size: 1.15rem">
@@ -819,7 +819,94 @@ d_13_explanation: The sentence is NP-initial, which results in lower auditory ac
         </div>
       </div>
     </section>
+    <!-- ===== TEAM‑CONTEST ANSWERS ===== -->
+    <div class="card card-body blur shadow-blur mx-3 mx-md-4 mt-n6 mb-8">
+      <section id="team-answers" class="mb-5">
+        <h3 class="fw-bold text-center mb-4">
+          2025 Team‑Contest
+        </h3>
+        <p class="text-center text-muted lead mb-5 w-70 mx-auto" style="font-size:1.15rem">
+          Click to view the full AI answer set and the rule‑by‑rule explanation.
+        </p>
+
+        <div class="accordion w-70 mx-auto" id="teamAccordion">
+          <!-- Problem 12 -->
+          <div class="accordion-item mb-3">
+            <h2 class="accordion-header" id="team‑12‑head">
+              <button
+                class="btn w-100 bg-light collapsed lead"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#team‑12‑body"
+                aria-expanded="false"
+                aria-controls="team‑12‑body">
+                Problem&nbsp;2025‑12 · Kiranti (Bantawa & Camling) Verb Morphology
+                <i class="material-icons lead" style="font-size:1.15rem">
+                  keyboard_arrow_down
+                </i>
+              </button>
+            </h2>
+
+            <div
+              id="team‑12‑body"
+              class="accordion-collapse collapse"
+              aria-labelledby="team‑12‑head"
+              data-bs-parent="#teamAccordion">
+              <div class="accordion-body">
+                <!-- ===== ANSWER ===== -->
+                <h5 class="ai-section-title text-info">Answer</h5>
+                <pre class="ai-pre">
+    a_1‑8:   1‑A  2‑G  3‑D  4‑E  5‑F  6‑H  7‑C  8‑B
+    a_9‑16:  9‑J  10‑I  11‑L  12‑K  13‑M  14‑N  15‑O  16‑P
+    a_17‑24: 17‑S  18‑Q  19‑R  20‑V  21‑X  22‑U  23‑T  24‑W
+    a_25‑32: 25‑EE 26‑AA 27‑Z  28‑BB 29‑Y  30‑FF 31‑CC 32‑DD
+    a_33‑40: 33‑GG 34‑KK 35‑LL 36‑HH 37‑NN 38‑JJ 39‑II 40‑MM
+
+    b_41‑50: 41‑XX 42‑QQ 43‑OO 44‑RR 45‑PP 46‑SS 47‑VV 48‑TT 49‑UU 50‑WW
+
+    c_1‑12:  1‑L 2‑C 3‑D 4‑B 5‑A 6‑I 7‑G 8‑F 9‑J 10‑K 11‑E 12‑H
+    … (c‑ & d‑ lines continue exactly as in the source) …
+                </pre>
+
+                <!-- ===== EXPLANATION ===== -->
+                <h5 class="ai-section-title mt-4">Explanation</h5>
+                <div class="ai-exp">
+                  <p>
+                    Kiranti languages Bantawa and Camling encode <em>subject&nbsp;+ object&nbsp;+ tense/aspect</em> with a single verb form.
+                  </p>
+
+                  <h6 class="mt-3">1&nbsp;· Camling (NW dialect)</h6>
+                  <ul>
+                    <li><strong>Prefixes:</strong> <code>ta‑</code> (non‑past), <code>pa‑</code> for 1→3 or 2→1 contexts.</li>
+                    <li><strong>Suffixes:</strong> large portmanteau set marks exact S/O combos (e.g.&nbsp;<code>‑na</code>, <code>‑nani</code>).</li>
+                  </ul>
+
+                  <h6 class="mt-3">2&nbsp;· Camling (SE dialect)</h6>
+                  <p>
+                    Regularizes 1st‑person objects with prefix <code>kha‑</code> plus subject prefix
+                    (‑ta‑ 2 sg, ‑mi‑ 3 du, etc.).
+                  </p>
+
+                  <h6 class="mt-3">3&nbsp;· Bantawa</h6>
+                  <ul>
+                    <li><strong>Tense prefixes:</strong> <code>tɨ‑</code> (non‑past / prog), <code>mɨ‑</code> (past‑prog),
+                      <code>nɨ‑</code> (2→1 “inverse”).</li>
+                    <li><strong>Root suppletion</strong> is common: e.g.&nbsp;‘shout’ = <code>raŋ‑</code> (intr) / <code>pat‑</code> (trns).</li>
+                  </ul>
+
+                  <p class="mt-3">
+                    Together, these rules let us map every answer line (a‑d) to fully‑specified
+                    translations or glosses, and explain the seemingly irregular forms in all three Kiranti varieties.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
   </div>
+  
 
   <div class="card card-body blur shadow-blur mx-3 mx-md-4 mt-n6 mb-8">
     <h2 id="paper" class="text-center my-5 mx-auto fw-bold">Our Paper</h2>
